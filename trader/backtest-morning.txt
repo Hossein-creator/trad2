@@ -1,0 +1,131 @@
+﻿29 contracts
+
+minimum stop 0.5 %: 264 days, median stop 1.67 %
+  1.0R to 12:00 top2   older   318 trades  43 % wins -0.106R each t  -3.4 total   -33.6R
+                         newer   210 trades  41 % wins -0.124R each t  -2.9 total   -26.1R
+  1.0R to 12:00 random older   318 trades  47 % wins -0.082R each t  -2.4 total   -26.0R
+                         newer   210 trades  42 % wins -0.119R each t  -2.9 total   -25.0R
+  1.0R to 12:30 top2   older   318 trades  42 % wins -0.129R each t  -3.9 total   -41.0R
+                         newer   210 trades  42 % wins -0.120R each t  -2.7 total   -25.3R
+  1.0R to 12:30 random older   318 trades  46 % wins -0.079R each t  -2.2 total   -25.0R
+                         newer   210 trades  45 % wins -0.096R each t  -2.2 total   -20.1R
+  1.5R to 12:00 top2   older   318 trades  43 % wins -0.089R each t  -2.6 total   -28.2R
+                         newer   210 trades  40 % wins -0.112R each t  -2.4 total   -23.6R
+  1.5R to 12:00 random older   318 trades  47 % wins -0.063R each t  -1.7 total   -20.1R
+                         newer   210 trades  40 % wins -0.115R each t  -2.5 total   -24.2R
+  1.5R to 12:30 top2   older   318 trades  41 % wins -0.114R each t  -3.2 total   -36.2R
+                         newer   210 trades  41 % wins -0.106R each t  -2.2 total   -22.2R
+  1.5R to 12:30 random older   318 trades  44 % wins -0.062R each t  -1.6 total   -19.8R
+                         newer   210 trades  42 % wins -0.095R each t  -2.0 total   -19.9R
+  2.0R to 12:00 top2   older   318 trades  42 % wins -0.080R each t  -2.2 total   -25.3R
+                         newer   210 trades  40 % wins -0.113R each t  -2.4 total   -23.8R
+  2.0R to 12:00 random older   318 trades  45 % wins -0.072R each t  -1.9 total   -22.8R
+                         newer   210 trades  38 % wins -0.122R each t  -2.5 total   -25.6R
+  2.0R to 12:30 top2   older   318 trades  40 % wins -0.107R each t  -2.8 total   -34.1R
+                         newer   210 trades  41 % wins -0.108R each t  -2.2 total   -22.6R
+  2.0R to 12:30 random older   318 trades  43 % wins -0.068R each t  -1.6 total   -21.5R
+                         newer   210 trades  41 % wins -0.098R each t  -1.9 total   -20.7R
+
+minimum stop 0.8 %: 264 days, median stop 1.78 %
+  1.0R to 12:00 top2   older   318 trades  44 % wins -0.094R each t  -3.1 total   -29.9R
+                         newer   210 trades  42 % wins -0.091R each t  -2.2 total   -19.1R
+  1.0R to 12:00 random older   318 trades  46 % wins -0.099R each t  -3.0 total   -31.5R
+                         newer   210 trades  44 % wins -0.079R each t  -2.0 total   -16.6R
+  1.0R to 12:30 top2   older   318 trades  42 % wins -0.119R each t  -3.7 total   -37.8R
+                         newer   210 trades  44 % wins -0.086R each t  -2.0 total   -18.1R
+  1.0R to 12:30 random older   318 trades  45 % wins -0.092R each t  -2.6 total   -29.2R
+                         newer   210 trades  50 % wins -0.049R each t  -1.2 total   -10.3R
+  1.5R to 12:00 top2   older   318 trades  44 % wins -0.088R each t  -2.7 total   -27.9R
+                         newer   210 trades  41 % wins -0.089R each t  -2.0 total   -18.6R
+  1.5R to 12:00 random older   318 trades  46 % wins -0.087R each t  -2.5 total   -27.7R
+                         newer   210 trades  43 % wins -0.064R each t  -1.5 total   -13.4R
+  1.5R to 12:30 top2   older   318 trades  41 % wins -0.117R each t  -3.4 total   -37.3R
+                         newer   210 trades  42 % wins -0.083R each t  -1.8 total   -17.5R
+  1.5R to 12:30 random older   318 trades  44 % wins -0.080R each t  -2.1 total   -25.5R
+                         newer   210 trades  48 % wins -0.037R each t  -0.8 total    -7.8R
+  2.0R to 12:00 top2   older   318 trades  44 % wins -0.077R each t  -2.3 total   -24.6R
+                         newer   210 trades  41 % wins -0.084R each t  -1.9 total   -17.6R
+  2.0R to 12:00 random older   318 trades  45 % wins -0.086R each t  -2.4 total   -27.3R
+                         newer   210 trades  42 % wins -0.046R each t  -1.0 total    -9.6R
+  2.0R to 12:30 top2   older   318 trades  41 % wins -0.107R each t  -3.0 total   -34.2R
+                         newer   210 trades  42 % wins -0.083R each t  -1.8 total   -17.4R
+  2.0R to 12:30 random older   318 trades  43 % wins -0.073R each t  -1.8 total   -23.1R
+                         newer   210 trades  47 % wins -0.018R each t  -0.4 total    -3.7R
+
+minimum stop 1.0 %: 264 days, median stop 1.90 %
+  1.0R to 12:00 top2   older   318 trades  44 % wins -0.095R each t  -3.2 total   -30.3R
+                         newer   210 trades  43 % wins -0.079R each t  -2.0 total   -16.5R
+  1.0R to 12:00 random older   318 trades  46 % wins -0.088R each t  -2.7 total   -27.9R
+                         newer   210 trades  44 % wins -0.066R each t  -1.8 total   -13.9R
+  1.0R to 12:30 top2   older   318 trades  42 % wins -0.126R each t  -4.1 total   -40.2R
+                         newer   210 trades  44 % wins -0.075R each t  -1.8 total   -15.8R
+  1.0R to 12:30 random older   318 trades  45 % wins -0.087R each t  -2.6 total   -27.7R
+                         newer   210 trades  48 % wins -0.044R each t  -1.1 total    -9.2R
+  1.5R to 12:00 top2   older   318 trades  44 % wins -0.096R each t  -3.1 total   -30.6R
+                         newer   210 trades  42 % wins -0.074R each t  -1.8 total   -15.6R
+  1.5R to 12:00 random older   318 trades  45 % wins -0.084R each t  -2.4 total   -26.8R
+                         newer   210 trades  42 % wins -0.070R each t  -1.7 total   -14.7R
+  1.5R to 12:30 top2   older   318 trades  40 % wins -0.131R each t  -4.0 total   -41.8R
+                         newer   210 trades  43 % wins -0.068R each t  -1.5 total   -14.2R
+  1.5R to 12:30 random older   318 trades  44 % wins -0.080R each t  -2.2 total   -25.4R
+                         newer   210 trades  47 % wins -0.040R each t  -0.9 total    -8.4R
+  2.0R to 12:00 top2   older   318 trades  44 % wins -0.087R each t  -2.7 total   -27.8R
+                         newer   210 trades  42 % wins -0.067R each t  -1.6 total   -14.1R
+  2.0R to 12:00 random older   318 trades  45 % wins -0.085R each t  -2.4 total   -27.1R
+                         newer   210 trades  41 % wins -0.060R each t  -1.4 total   -12.5R
+  2.0R to 12:30 top2   older   318 trades  40 % wins -0.121R each t  -3.5 total   -38.5R
+                         newer   210 trades  43 % wins -0.066R each t  -1.5 total   -13.8R
+  2.0R to 12:30 random older   318 trades  43 % wins -0.073R each t  -1.9 total   -23.4R
+                         newer   210 trades  47 % wins -0.022R each t  -0.5 total    -4.6R
+
+minimum stop 1.5 %: 264 days, median stop 2.34 %
+  1.0R to 12:00 top2   older   318 trades  45 % wins -0.056R each t  -2.1 total   -17.9R
+                         newer   210 trades  42 % wins -0.077R each t  -2.2 total   -16.3R
+  1.0R to 12:00 random older   318 trades  47 % wins -0.032R each t  -1.2 total   -10.2R
+                         newer   210 trades  45 % wins -0.068R each t  -2.1 total   -14.4R
+  1.0R to 12:30 top2   older   318 trades  43 % wins -0.080R each t  -2.9 total   -25.5R
+                         newer   210 trades  44 % wins -0.066R each t  -1.8 total   -13.8R
+  1.0R to 12:30 random older   318 trades  48 % wins -0.023R each t  -0.8 total    -7.3R
+                         newer   210 trades  45 % wins -0.051R each t  -1.5 total   -10.7R
+  1.5R to 12:00 top2   older   318 trades  44 % wins -0.064R each t  -2.4 total   -20.4R
+                         newer   210 trades  41 % wins -0.083R each t  -2.3 total   -17.4R
+  1.5R to 12:00 random older   318 trades  46 % wins -0.032R each t  -1.1 total   -10.1R
+                         newer   210 trades  44 % wins -0.089R each t  -2.8 total   -18.7R
+  1.5R to 12:30 top2   older   318 trades  41 % wins -0.093R each t  -3.2 total   -29.6R
+                         newer   210 trades  43 % wins -0.071R each t  -1.9 total   -14.8R
+  1.5R to 12:30 random older   318 trades  47 % wins -0.027R each t  -0.9 total    -8.5R
+                         newer   210 trades  43 % wins -0.077R each t  -2.3 total   -16.1R
+  2.0R to 12:00 top2   older   318 trades  44 % wins -0.057R each t  -2.0 total   -18.1R
+                         newer   210 trades  41 % wins -0.086R each t  -2.4 total   -18.1R
+  2.0R to 12:00 random older   318 trades  46 % wins -0.030R each t  -1.1 total    -9.4R
+                         newer   210 trades  44 % wins -0.086R each t  -2.7 total   -18.2R
+  2.0R to 12:30 top2   older   318 trades  41 % wins -0.084R each t  -2.7 total   -26.6R
+                         newer   210 trades  43 % wins -0.078R each t  -2.1 total   -16.3R
+  2.0R to 12:30 random older   318 trades  47 % wins -0.027R each t  -0.9 total    -8.5R
+                         newer   210 trades  43 % wins -0.074R each t  -2.2 total   -15.6R
+
+minimum stop 2.0 %: 264 days, median stop 2.66 %
+  1.0R to 12:00 top2   older   318 trades  43 % wins -0.059R each t  -2.4 total   -18.8R
+                         newer   210 trades  42 % wins -0.060R each t  -1.9 total   -12.5R
+  1.0R to 12:00 random older   318 trades  43 % wins -0.030R each t  -1.3 total    -9.7R
+                         newer   210 trades  44 % wins -0.030R each t  -1.1 total    -6.4R
+  1.0R to 12:30 top2   older   318 trades  42 % wins -0.079R each t  -3.1 total   -25.2R
+                         newer   210 trades  45 % wins -0.041R each t  -1.3 total    -8.5R
+  1.0R to 12:30 random older   318 trades  47 % wins -0.029R each t  -1.2 total    -9.4R
+                         newer   210 trades  48 % wins +0.004R each t  +0.1 total    +0.9R
+  1.5R to 12:00 top2   older   318 trades  43 % wins -0.053R each t  -2.1 total   -17.0R
+                         newer   210 trades  41 % wins -0.063R each t  -1.9 total   -13.3R
+  1.5R to 12:00 random older   318 trades  42 % wins -0.027R each t  -1.1 total    -8.6R
+                         newer   210 trades  44 % wins -0.030R each t  -1.0 total    -6.3R
+  1.5R to 12:30 top2   older   318 trades  41 % wins -0.074R each t  -2.7 total   -23.7R
+                         newer   210 trades  44 % wins -0.042R each t  -1.2 total    -8.8R
+  1.5R to 12:30 random older   318 trades  47 % wins -0.026R each t  -1.0 total    -8.3R
+                         newer   210 trades  47 % wins -0.001R each t  -0.0 total    -0.3R
+  2.0R to 12:00 top2   older   318 trades  43 % wins -0.049R each t  -1.9 total   -15.7R
+                         newer   210 trades  41 % wins -0.067R each t  -2.0 total   -14.0R
+  2.0R to 12:00 random older   318 trades  42 % wins -0.034R each t  -1.4 total   -10.7R
+                         newer   210 trades  44 % wins -0.032R each t  -1.0 total    -6.8R
+  2.0R to 12:30 top2   older   318 trades  41 % wins -0.070R each t  -2.4 total   -22.3R
+                         newer   210 trades  44 % wins -0.049R each t  -1.5 total   -10.3R
+  2.0R to 12:30 random older   318 trades  47 % wins -0.029R each t  -1.1 total    -9.3R
+                         newer   210 trades  47 % wins -0.001R each t  -0.0 total    -0.2R

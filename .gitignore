@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.pickle
+
+# keys, should they ever land in a file
+.env
+*.key
+
+# own trades and daily state
+trader/kucoin-log.json
+trader/weekend-log.json
+trader/daily-log.json
+trader/daily-watch.json
+trader/kucoin-plan.json
+trader/kucoin-entry.json
+trader/kucoin-brief.json
+trader/entry-*.json

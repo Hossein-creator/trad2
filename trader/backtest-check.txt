@@ -1,0 +1,48 @@
+﻿
+short, Fib 50-66 %, day bars with, 3R, 24h
+    811 trades  49 % wins +0.173R each t  +4.0 total  +140.3R; t per day +3.4; worst drawdown -20R
+  2024 Q4 +11R  2025 Q1 +9R  2025 Q2 +5R  2025 Q3 -5R  2025 Q4 +70R  2026 Q1 +17R  2026 Q2 +22R  2026 Q3 -0R  2026 Q4 +11R
+
+same with 2R
+    811 trades  50 % wins +0.151R each t  +3.8 total  +122.3R; t per day +3.3; worst drawdown -17R
+  2024 Q4 +12R  2025 Q1 +10R  2025 Q2 +6R  2025 Q3 -7R  2025 Q4 +58R  2026 Q1 +26R  2026 Q2 +18R  2026 Q3 -6R  2026 Q4 +7R
+
+same, closed by 22:00, 2R
+    811 trades  51 % wins +0.103R each t  +3.1 total   +83.9R; t per day +2.7; worst drawdown -16R
+  2024 Q4 +6R  2025 Q1 +4R  2025 Q2 +0R  2025 Q3 -8R  2025 Q4 +48R  2026 Q1 +18R  2026 Q2 +8R  2026 Q3 +5R  2026 Q4 +2R
+
+baseline: any short, 24h, 2R
+    986 trades  43 % wins +0.025R each t  +0.7 total   +24.3R; t per day +0.6; worst drawdown -39R
+  2024 Q4 +12R  2025 Q1 -12R  2025 Q2 +7R  2025 Q3 -23R  2025 Q4 +24R  2026 Q1 +5R  2026 Q2 -0R  2026 Q3 +8R  2026 Q4 +5R
+
+baseline: any long, 24h, 2R
+    991 trades  38 % wins -0.055R each t  -1.5 total   -54.7R; t per day -1.4; worst drawdown -71R
+  2024 Q4 -2R  2025 Q1 -6R  2025 Q2 +2R  2025 Q3 +2R  2025 Q4 -28R  2026 Q1 +6R  2026 Q2 -17R  2026 Q3 +0R  2026 Q4 -13R
+
+11:00, long signal 5 of 7, traded SHORT, 2R, 48h
+    223 trades  53 % wins +0.309R each t  +3.6 total   +69.0R; t per day +3.3; worst drawdown -8R
+  2024 Q4 +4R  2025 Q1 +8R  2025 Q2 +5R  2025 Q3 +13R  2025 Q4 +1R  2026 Q1 +24R  2026 Q2 -4R  2026 Q3 +1R  2026 Q4 +18R
+
+same with 3R
+    223 trades  50 % wins +0.340R each t  +3.5 total   +75.9R; t per day +3.2; worst drawdown -13R
+  2024 Q4 +8R  2025 Q1 +8R  2025 Q2 +7R  2025 Q3 +10R  2025 Q4 +2R  2026 Q1 +26R  2026 Q2 -7R  2026 Q3 -0R  2026 Q4 +23R
+
+same, closed by 22:00, 2R
+    223 trades  51 % wins +0.135R each t  +2.1 total   +30.1R; t per day +1.8; worst drawdown -15R
+  2024 Q4 +4R  2025 Q1 +2R  2025 Q2 +3R  2025 Q3 +17R  2025 Q4 -1R  2026 Q1 +15R  2026 Q2 -10R  2026 Q3 -5R  2026 Q4 +7R
+
+baseline: 11:00, any long signal traded SHORT, 2R, 48h
+    942 trades  39 % wins -0.006R each t  -0.1 total    -5.6R; t per day -0.1; worst drawdown -66R
+  2024 Q4 +9R  2025 Q1 +10R  2025 Q2 -2R  2025 Q3 -5R  2025 Q4 +2R  2026 Q1 +4R  2026 Q2 -14R  2026 Q3 -35R  2026 Q4 +25R
+
+baseline: 11:00, any short signal traded SHORT, 2R, 48h
+    968 trades  37 % wins -0.023R each t  -0.6 total   -22.1R; t per day -0.5; worst drawdown -52R
+  2024 Q4 +4R  2025 Q1 -25R  2025 Q2 -5R  2025 Q3 -13R  2025 Q4 +30R  2026 Q1 +14R  2026 Q2 -3R  2026 Q3 -23R  2026 Q4 -0R
+
+live rule: 11:00, always 2, 2R, closed by 22:00
+   1002 trades  41 % wins -0.102R each t  -3.4 total  -102.5R; t per day -3.0; worst drawdown -103R
+  2024 Q4 -11R  2025 Q1 -16R  2025 Q2 +0R  2025 Q3 -23R  2025 Q4 +4R  2026 Q1 -23R  2026 Q2 -2R  2026 Q3 -17R  2026 Q4 -15R
+
+live rule, only 5 of 7
+    455 trades  41 % wins -0.103R each t  -2.4 total   -46.8R; t per day -2.1; worst drawdown -47R
+  2024 Q4 -2R  2025 Q1 -6R  2025 Q2 +1R  2025 Q3 -19R  2025 Q4 +8R  2026 Q1 -20R  2026 Q2 +14R  2026 Q3 -12R  2026 Q4 -9R

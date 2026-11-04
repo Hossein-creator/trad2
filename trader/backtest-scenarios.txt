@@ -1,0 +1,163 @@
+﻿212218 ratings, 50 contracts, 501 weekdays, 2024-11-29 to 2026-10-30, older part up to 2026-01-23
+67352 scenarios, 46377764 simulated trades
+
+The live rule: 11:00 Berlin, both sides, 2R, closed by 22:00
+  none     older   602 trades  41 % wins -0.075R each t  -1.9 total   -45.2R
+           newer   400 trades  40 % wins -0.143R each t  -3.3 total   -57.3R
+  4 of 7   older   532 trades  41 % wins -0.075R each t  -1.8 total   -39.8R
+           newer   390 trades  40 % wins -0.142R each t  -3.2 total   -55.3R
+  5 of 7   older   242 trades  40 % wins -0.093R each t  -1.5 total   -22.6R
+           newer   213 trades  42 % wins -0.113R each t  -1.9 total   -24.2R
+
+Positive after costs: older 15851 (23.5 %), newer 13751 (20.4 %), both 4615 (6.9 %) of 67352
+Rank correlation older vs newer, all scenarios: +0.20
+By direction, average of the scenarios' mean R:
+  with     older -0.064 newer -0.057 (34892 scenarios)
+  against  older -0.036 newer -0.043 (32460 scenarios)
+
+The 25 best on the older days (mean R), judged on the newer days:
+  21-23 Berlin long  fibgold+volume         against target 3.0  hold 48 
+      older   115 trades  49 % wins +0.443R each t  +3.0 total   +51.0R
+      newer    99 trades  38 % wins -0.003R each t  -0.0 total    -0.3R
+  11 Berlin    long  fvg4+pullback          against target 3.0  hold 48 
+      older   172 trades  48 % wins +0.393R each t  +3.3 total   +67.7R
+      newer   173 trades  40 % wins -0.027R each t  -0.3 total    -4.7R
+  11 Berlin    long  5 of 7                 against target 3.0  hold 48 
+      older   105 trades  49 % wins +0.366R each t  +2.5 total   +38.4R
+      newer   118 trades  52 % wins +0.318R each t  +2.5 total   +37.5R
+  09-11 Berlin long  fvg4+trend             against target 3.0  hold 48 
+      older   158 trades  48 % wins +0.358R each t  +2.9 total   +56.6R
+      newer   160 trades  42 % wins +0.069R each t  +0.7 total   +11.0R
+  11 Berlin    long  fvg4+candle            against target 2.0  hold 48 
+      older   118 trades  51 % wins +0.343R each t  +2.9 total   +40.5R
+      newer    98 trades  47 % wins +0.127R each t  +1.1 total   +12.5R
+  11 Berlin    long  5 of 7                 against target 2.0  hold 48 
+      older   105 trades  53 % wins +0.342R each t  +2.7 total   +35.9R
+      newer   118 trades  53 % wins +0.280R each t  +2.5 total   +33.1R
+  13-15 Berlin long  fvg4+fibgold           against target 2.0  hold 48 
+      older   120 trades  52 % wins +0.339R each t  +2.9 total   +40.7R
+      newer   115 trades  48 % wins +0.143R each t  +1.2 total   +16.4R
+  13-15 Berlin long  fvg4+fibgold           against target 3.0  hold 48 
+      older   120 trades  50 % wins +0.336R each t  +2.5 total   +40.3R
+      newer   115 trades  45 % wins +0.090R each t  +0.7 total   +10.3R
+  11 Berlin    long  fvg4+candle            against target 3.0  hold 48 
+      older   118 trades  44 % wins +0.332R each t  +2.4 total   +39.1R
+      newer    98 trades  46 % wins +0.146R each t  +1.1 total   +14.3R
+  13-15 Berlin long  fibgold+trend          against target 3.0  hold 48 
+      older   106 trades  45 % wins +0.317R each t  +2.1 total   +33.6R
+      newer   114 trades  38 % wins -0.052R each t  -0.4 total    -5.9R
+  17-19 Berlin long  fibgold+adx25          against target 3.0  hold 48 
+      older   163 trades  44 % wins +0.315R each t  +2.6 total   +51.4R
+      newer   165 trades  37 % wins +0.038R each t  +0.4 total    +6.3R
+  11 Berlin    long  fvg+fibgold            against target 2.0  hold 48 
+      older   117 trades  50 % wins +0.312R each t  +2.6 total   +36.5R
+      newer   121 trades  47 % wins +0.068R each t  +0.6 total    +8.3R
+  11 Berlin    long  fvg4+trend             against target 3.0  hold 48 
+      older   128 trades  47 % wins +0.311R each t  +2.3 total   +39.8R
+      newer   131 trades  48 % wins +0.227R each t  +1.9 total   +29.8R
+  09-11 Berlin long  trend+pullback         against target 3.0  hold day
+      older   137 trades  50 % wins +0.305R each t  +2.8 total   +41.8R
+      newer   154 trades  41 % wins -0.102R each t  -1.3 total   -15.7R
+  09-11 Berlin long  trend+pullback         against target 3.0  hold 48 
+      older   137 trades  44 % wins +0.304R each t  +2.3 total   +41.6R
+      newer   154 trades  36 % wins -0.083R each t  -0.8 total   -12.7R
+  13-15 Berlin long  fibgold+flip           against target 3.0  hold 48 
+      older   118 trades  45 % wins +0.301R each t  +2.2 total   +35.5R
+      newer    97 trades  45 % wins +0.147R each t  +1.1 total   +14.3R
+  13-15 Berlin long  candle+adx25           against target 3.0  hold 48 
+      older   342 trades  46 % wins +0.301R each t  +3.7 total  +102.8R
+      newer   297 trades  37 % wins -0.053R each t  -0.7 total   -15.9R
+  01-07 Berlin both  fib+room               with    target 2.0  hold 48 
+      older   110 trades  45 % wins +0.295R each t  +2.2 total   +32.5R
+      newer    76 trades  41 % wins +0.157R each t  +1.0 total   +12.0R
+  21-23 Berlin long  fibgold+volume         against target 2.0  hold 48 
+      older   115 trades  50 % wins +0.295R each t  +2.4 total   +33.9R
+      newer    99 trades  39 % wins -0.053R each t  -0.4 total    -5.2R
+  11 Berlin    long  fvg4+trend             against target 2.0  hold 48 
+      older   128 trades  50 % wins +0.292R each t  +2.5 total   +37.4R
+      newer   131 trades  49 % wins +0.172R each t  +1.6 total   +22.5R
+  13-15 Berlin short room+volume            against target 3.0  hold 48 
+      older   148 trades  42 % wins +0.291R each t  +2.2 total   +43.1R
+      newer   114 trades  34 % wins -0.095R each t  -0.8 total   -10.9R
+  17-19 Berlin long  fvg4+fibgold           against target 3.0  hold 48 
+      older   126 trades  44 % wins +0.290R each t  +2.1 total   +36.6R
+      newer   106 trades  34 % wins -0.044R each t  -0.3 total    -4.6R
+  17-19 Berlin long  fvg4+fibgold           against target 3.0  hold 24 
+      older   126 trades  48 % wins +0.290R each t  +2.4 total   +36.5R
+      newer   106 trades  41 % wins -0.013R each t  -0.1 total    -1.4R
+  13-15 Berlin short room+volume            against target 3.0  hold 24 
+      older   148 trades  48 % wins +0.288R each t  +2.4 total   +42.7R
+      newer   114 trades  40 % wins -0.018R each t  -0.2 total    -2.1R
+  17-19 Berlin long  fibgold+adx25          against target 3.0  hold 24 
+      older   163 trades  49 % wins +0.287R each t  +2.7 total   +46.9R
+      newer   165 trades  48 % wins +0.101R each t  +1.1 total   +16.7R
+  these 25 on the newer days: average +0.062R each, 14 of 25 positive
+
+Strong on the older days (t at least 3, at least 200 trades): 24 scenarios
+  on the newer days: average +0.009R each, 14 positive, 2 with t at least 2
+  any hour     short fibgold+daywith        with    target 3.0  hold 24 
+      older   451 trades  49 % wins +0.200R each t  +3.3 total   +90.2R
+      newer   360 trades  48 % wins +0.139R each t  +2.3 total   +50.1R
+  any hour     short fibgold+daywith        with    target 2.0  hold 24 
+      older   451 trades  50 % wins +0.179R each t  +3.3 total   +80.7R
+      newer   360 trades  49 % wins +0.116R each t  +2.1 total   +41.6R
+  any hour     short fibgold                with    target 3.0  hold 24 
+      older   492 trades  48 % wins +0.177R each t  +3.0 total   +87.1R
+      newer   377 trades  46 % wins +0.091R each t  +1.5 total   +34.5R
+  any hour     short fib+fibgold            with    target 3.0  hold 24 
+      older   492 trades  48 % wins +0.177R each t  +3.0 total   +87.1R
+      newer   377 trades  46 % wins +0.091R each t  +1.5 total   +34.5R
+  any hour     short fibgold+strong         with    target 2.0  hold 24 
+      older   489 trades  50 % wins +0.170R each t  +3.3 total   +83.2R
+      newer   377 trades  46 % wins +0.063R each t  +1.2 total   +23.8R
+  any hour     short fibgold+strong         with    target 3.0  hold 24 
+      older   489 trades  48 % wins +0.186R each t  +3.2 total   +91.0R
+      newer   377 trades  46 % wins +0.061R each t  +1.1 total   +22.9R
+  any hour     short fibgold+strong         with    target 2.0  hold day
+      older   489 trades  51 % wins +0.146R each t  +3.1 total   +71.3R
+      newer   377 trades  49 % wins +0.042R each t  +0.9 total   +15.9R
+  any hour     short fibgold                with    target 3.0  hold day
+      older   492 trades  50 % wins +0.159R each t  +3.1 total   +78.3R
+      newer   377 trades  49 % wins +0.043R each t  +0.9 total   +16.3R
+  any hour     short fib+fibgold            with    target 3.0  hold day
+      older   492 trades  50 % wins +0.159R each t  +3.1 total   +78.3R
+      newer   377 trades  49 % wins +0.043R each t  +0.9 total   +16.3R
+  11 Berlin    long  fvg+candle             against target 2.0  hold 48 
+      older   211 trades  50 % wins +0.276R each t  +3.1 total   +58.3R
+      newer   192 trades  44 % wins +0.073R each t  +0.8 total   +14.1R
+  any hour     short fibgold+strong         with    target 3.0  hold day
+      older   489 trades  50 % wins +0.172R each t  +3.4 total   +84.3R
+      newer   377 trades  48 % wins +0.018R each t  +0.4 total    +6.9R
+  any hour     long  trend+adx25            against target 2.0  hold 48 
+      older   389 trades  49 % wins +0.254R each t  +3.8 total   +98.7R
+      newer   330 trades  41 % wins +0.027R each t  +0.4 total    +8.9R
+  any hour     long  fib+adx25              against target 2.0  hold 48 
+      older   388 trades  46 % wins +0.207R each t  +3.1 total   +80.3R
+      newer   330 trades  41 % wins +0.023R each t  +0.3 total    +7.7R
+  any hour     long  trend+adx25            against target 3.0  hold 48 
+      older   389 trades  43 % wins +0.258R each t  +3.3 total  +100.2R
+      newer   330 trades  37 % wins +0.007R each t  +0.1 total    +2.2R
+  any hour     long  trend+adx25            against target 2.0  hold 24 
+      older   389 trades  49 % wins +0.186R each t  +3.0 total   +72.5R
+      newer   330 trades  44 % wins -0.004R each t  -0.1 total    -1.2R
+
+Each parameter alone, with-trend scenarios, average of mean R on all days:
+  hours   01-07 Berlin   older -0.062 newer -0.044
+  hours   09-11 Berlin   older -0.081 newer -0.099
+  hours   11 Berlin      older -0.068 newer -0.101
+  hours   13-15 Berlin   older -0.069 newer -0.057
+  hours   17-19 Berlin   older -0.057 newer -0.037
+  hours   21-23 Berlin   older -0.053 newer -0.021
+  hours   any hour       older -0.062 newer -0.047
+  side    both           older -0.079 newer -0.072
+  side    long           older -0.101 newer -0.071
+  side    short          older -0.012 newer -0.025
+  target  1.0            older -0.058 newer -0.058
+  target  2.0            older -0.062 newer -0.059
+  target  3.0            older -0.066 newer -0.055
+  target  zone           older -0.101 newer -0.050
+  hold    12             older -0.057 newer -0.060
+  hold    24             older -0.067 newer -0.050
+  hold    48             older -0.076 newer -0.056
+  hold    day            older -0.058 newer -0.061
+END
