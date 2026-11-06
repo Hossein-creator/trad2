@@ -1,0 +1,495 @@
+50 contracts, 266 weekdays 2025-10-31 to 2026-11-06, 20987 rated contract-days; older 60 % to 2026-06-11
+
+1a. Price action on the trend side (today's direction rule) (2R, closed 12:30): trades with the feature
+  all of them                       older  6252 trades  45 % wins -0.047R each t  -7.5 total  -295.0R
+                                     newer  4325 trades  47 % wins -0.028R each t  -3.8 total  -121.1R
+  15m:trigger strong close           older   418 trades  49 % wins -0.002R each t  -0.1 total    -0.8R
+                                     newer   262 trades  45 % wins +0.029R each t  +1.0 total    +7.6R  better on both
+  1h:against outside reversal        older   268 trades  56 % wins +0.046R each t  +1.5 total   +12.3R
+                                     newer   154 trades  51 % wins +0.015R each t  +0.3 total    +2.3R  better on both
+  1h:against inside-bar breakout     older   140 trades  49 % wins -0.019R each t  -0.5 total    -2.6R
+                                     newer   115 trades  53 % wins +0.004R each t  +0.1 total    +0.4R  better on both
+  1h:pullback corrective             older  1613 trades  46 % wins -0.021R each t  -1.9 total   -34.2R
+                                     newer  1036 trades  51 % wins -0.001R each t  -0.1 total    -1.3R  better on both
+  1h:pullback +                      older  1613 trades  46 % wins -0.021R each t  -1.9 total   -34.2R
+                                     newer  1036 trades  51 % wins -0.001R each t  -0.1 total    -1.3R  better on both
+  15m:trigger engulfing              older   488 trades  51 % wins +0.025R each t  +1.2 total   +12.2R
+                                     newer   283 trades  49 % wins -0.005R each t  -0.2 total    -1.3R  better on both
+  1h:wicks -                         older  1310 trades  46 % wins -0.026R each t  -2.1 total   -34.6R
+                                     newer   920 trades  50 % wins +0.021R each t  +1.3 total   +19.1R  better on both
+  15m:against inside-bar breakout    older   158 trades  47 % wins -0.003R each t  -0.1 total    -0.5R
+                                     newer   115 trades  55 % wins -0.008R each t  -0.1 total    -0.9R  better on both
+  1h:bos +                           older   937 trades  48 % wins +0.012R each t  +0.7 total   +11.7R
+                                     newer   688 trades  47 % wins -0.009R each t  -0.5 total    -6.4R  better on both
+  1h:against tweezer bottom          older   137 trades  68 % wins +0.111R each t  +3.0 total   +15.2R
+                                     newer    99 trades  42 % wins -0.009R each t  -0.2 total    -0.9R  better on both
+  1h:against morning star            older   154 trades  54 % wins +0.008R each t  +0.2 total    +1.2R
+                                     newer   107 trades  51 % wins -0.016R each t  -0.4 total    -1.7R  better on both
+  1h:choch_against -                 older  1828 trades  46 % wins -0.035R each t  -3.0 total   -64.6R
+                                     newer  1170 trades  51 % wins +0.010R each t  +0.8 total   +12.2R  better on both
+  1h:against CHoCH against           older  1828 trades  46 % wins -0.035R each t  -3.0 total   -64.6R
+                                     newer  1170 trades  51 % wins +0.010R each t  +0.8 total   +12.2R  better on both
+  1h:no check                        older  4610 trades  47 % wins -0.038R each t  -5.3 total  -174.2R
+                                     newer  3101 trades  48 % wins -0.019R each t  -2.3 total   -59.4R  better on both
+  1h:pullback even                   older  1700 trades  45 % wins -0.040R each t  -3.4 total   -67.9R
+                                     newer  1121 trades  50 % wins -0.005R each t  -0.4 total    -6.1R  better on both
+  15m:choch_against -                older  1704 trades  48 % wins -0.040R each t  -3.2 total   -68.5R
+                                     newer  1148 trades  51 % wins -0.017R each t  -1.1 total   -19.0R  better on both
+  15m:against CHoCH against          older  1704 trades  48 % wins -0.040R each t  -3.2 total   -68.5R
+                                     newer  1148 trades  51 % wins -0.017R each t  -1.1 total   -19.0R  better on both
+  15m:trigger tweezer top            older   160 trades  52 % wins -0.040R each t  -1.0 total    -6.5R
+                                     newer    97 trades  61 % wins +0.032R each t  +0.9 total    +3.1R  better on both
+  15m:wicks -                        older  1227 trades  46 % wins -0.041R each t  -3.0 total   -50.6R
+                                     newer   880 trades  48 % wins +0.042R each t  +2.4 total   +37.0R  better on both
+  1h:trigger dark cloud              older   114 trades  51 % wins +0.013R each t  +0.3 total    +1.4R
+                                     newer    73 trades  48 % wins -0.023R each t  -0.6 total    -1.6R  better on both
+  15m:pattern +                      older  1835 trades  45 % wins -0.035R each t  -3.3 total   -63.9R
+                                     newer  1133 trades  46 % wins -0.023R each t  -1.8 total   -26.0R  better on both
+  1h:anything against                older  3172 trades  47 % wins -0.041R each t  -4.7 total  -129.4R
+                                     newer  2177 trades  48 % wins -0.025R each t  -2.5 total   -54.1R  better on both
+  15m:bos_against -                  older   630 trades  46 % wins -0.044R each t  -2.2 total   -27.8R
+                                     newer   508 trades  54 % wins +0.015R each t  +0.7 total    +7.6R  better on both
+  15m:any trigger                    older  3169 trades  44 % wins -0.044R each t  -5.3 total  -139.7R
+                                     newer  2055 trades  47 % wins -0.025R each t  -2.6 total   -51.7R  better on both
+  1h:trigger BOS up                  older   103 trades  42 % wins -0.044R each t  -0.7 total    -4.6R
+                                     newer   128 trades  46 % wins -0.026R each t  -0.5 total    -3.3R  better on both
+  1h:against engulfing               older   425 trades  56 % wins +0.041R each t  +1.8 total   +17.2R
+                                     newer   298 trades  52 % wins -0.026R each t  -1.1 total    -7.9R  better on both
+  15m:check                          older  1861 trades  43 % wins -0.047R each t  -4.5 total   -86.7R
+                                     newer  1216 trades  46 % wins -0.025R each t  -2.1 total   -30.6R  better on both
+  15m:anything against               older  3164 trades  47 % wins -0.046R each t  -4.9 total  -144.6R
+                                     newer  2167 trades  48 % wins -0.029R each t  -2.7 total   -61.9R
+  15m:no check                       older  4391 trades  45 % wins -0.047R each t  -6.1 total  -208.3R
+                                     newer  3109 trades  47 % wins -0.029R each t  -3.2 total   -90.5R
+  15m:pullback even                  older  1596 trades  46 % wins -0.022R each t  -1.6 total   -34.5R
+                                     newer  1211 trades  46 % wins -0.029R each t  -2.0 total   -35.5R
+  1h:trigger BOS down                older   279 trades  47 % wins +0.056R each t  +1.5 total   +15.7R
+                                     newer   175 trades  47 % wins -0.030R each t  -0.9 total    -5.2R
+  15m:trigger inside-bar breakdown   older   229 trades  48 % wins -0.051R each t  -2.3 total   -11.6R
+                                     newer   119 trades  49 % wins -0.005R each t  -0.2 total    -0.6R
+  15m:trigger sweep                  older  1501 trades  45 % wins -0.051R each t  -4.4 total   -76.7R
+                                     newer  1090 trades  49 % wins -0.021R each t  -1.6 total   -22.6R
+  15m:sweep +                        older  1501 trades  45 % wins -0.051R each t  -4.4 total   -76.7R
+                                     newer  1090 trades  49 % wins -0.021R each t  -1.6 total   -22.6R
+  15m:pullback corrective            older  1508 trades  44 % wins -0.051R each t  -4.2 total   -77.5R
+                                     newer  1270 trades  48 % wins -0.016R each t  -1.3 total   -20.6R
+  15m:pullback +                     older  1508 trades  44 % wins -0.051R each t  -4.2 total   -77.5R
+                                     newer  1270 trades  48 % wins -0.016R each t  -1.3 total   -20.6R
+  15m:against engulfing              older   491 trades  47 % wins -0.055R each t  -2.5 total   -26.9R
+                                     newer   348 trades  44 % wins -0.036R each t  -1.4 total   -12.5R
+  15m:against pinbar                 older   305 trades  41 % wins -0.057R each t  -2.0 total   -17.3R
+                                     newer   201 trades  50 % wins +0.045R each t  +1.2 total    +9.0R
+  15m:pattern_against -              older  1741 trades  44 % wins -0.059R each t  -4.7 total  -102.7R
+                                     newer  1212 trades  46 % wins -0.031R each t  -2.1 total   -37.0R
+  15m:hard_against -                 older   911 trades  50 % wins -0.048R each t  -2.5 total   -43.4R
+                                     newer   650 trades  43 % wins -0.046R each t  -2.2 total   -30.1R
+  15m:against hard bar               older   911 trades  50 % wins -0.048R each t  -2.5 total   -43.4R
+                                     newer   650 trades  43 % wins -0.046R each t  -2.2 total   -30.1R
+  1h:pattern_against -               older  1627 trades  51 % wins +0.003R each t  +0.2 total    +4.7R
+                                     newer  1135 trades  46 % wins -0.047R each t  -3.3 total   -53.4R
+  15m:trigger evening star           older   174 trades  41 % wins -0.025R each t  -0.7 total    -4.4R
+                                     newer    75 trades  45 % wins -0.049R each t  -1.2 total    -3.6R
+  1h:trigger inside-bar breakdown    older   146 trades  41 % wins +0.002R each t  +0.1 total    +0.4R
+                                     newer    81 trades  38 % wins -0.050R each t  -1.1 total    -4.1R
+  1h:hard_against -                  older   705 trades  46 % wins -0.070R each t  -3.6 total   -49.3R
+                                     newer   485 trades  52 % wins -0.014R each t  -0.6 total    -6.6R
+  1h:against hard bar                older   705 trades  46 % wins -0.070R each t  -3.6 total   -49.3R
+                                     newer   485 trades  52 % wins -0.014R each t  -0.6 total    -6.6R
+  1h:momentum +                      older  1930 trades  43 % wins -0.040R each t  -3.4 total   -76.5R
+                                     newer  1314 trades  43 % wins -0.051R each t  -3.6 total   -67.5R
+  15m:trigger inside-bar breakout    older   113 trades  32 % wins -0.072R each t  -2.2 total    -8.1R
+                                     newer    64 trades  41 % wins -0.032R each t  -0.4 total    -2.0R
+  1h:check                           older  1642 trades  39 % wins -0.074R each t  -5.7 total  -120.8R
+                                     newer  1224 trades  44 % wins -0.050R each t  -3.4 total   -61.7R
+  1h:against strong close            older   243 trades  56 % wins +0.031R each t  +0.9 total    +7.6R
+                                     newer   151 trades  52 % wins -0.055R each t  -1.5 total    -8.4R
+  15m:wicks +                        older  1307 trades  43 % wins -0.060R each t  -4.3 total   -78.8R
+                                     newer   946 trades  46 % wins -0.056R each t  -3.9 total   -52.7R
+  1h:any trigger                     older  2916 trades  40 % wins -0.076R each t  -8.0 total  -221.2R
+                                     newer  2133 trades  44 % wins -0.046R each t  -4.2 total   -97.6R
+  15m:against outside reversal       older   325 trades  53 % wins -0.017R each t  -0.6 total    -5.5R
+                                     newer   233 trades  47 % wins -0.058R each t  -1.8 total   -13.6R
+  15m:momentum +                     older  1903 trades  41 % wins -0.077R each t  -7.4 total  -147.4R
+                                     newer  1387 trades  46 % wins -0.028R each t  -2.2 total   -38.1R
+  15m:trigger CHoCH down             older   299 trades  40 % wins -0.080R each t  -3.4 total   -23.9R
+                                     newer   167 trades  49 % wins -0.023R each t  -0.8 total    -3.8R
+  1h:trigger sweep                   older  1548 trades  40 % wins -0.083R each t  -6.7 total  -127.9R
+                                     newer  1109 trades  45 % wins -0.058R each t  -3.8 total   -64.8R
+  1h:sweep +                         older  1548 trades  40 % wins -0.083R each t  -6.7 total  -127.9R
+                                     newer  1109 trades  45 % wins -0.058R each t  -3.8 total   -64.8R
+  15m:trigger outside reversal       older   288 trades  49 % wins +0.004R each t  +0.1 total    +1.2R
+                                     newer   185 trades  40 % wins -0.064R each t  -2.2 total   -11.8R
+  15m:trigger BOS up                 older   168 trades  34 % wins -0.067R each t  -1.6 total   -11.3R
+                                     newer   128 trades  40 % wins -0.065R each t  -1.3 total    -8.3R
+  15m:pullback impulsive             older  1239 trades  44 % wins -0.075R each t  -5.2 total   -93.2R
+                                     newer   795 trades  46 % wins -0.065R each t  -3.6 total   -51.9R
+  15m:pullback -                     older  1239 trades  44 % wins -0.075R each t  -5.2 total   -93.2R
+                                     newer   795 trades  46 % wins -0.065R each t  -3.6 total   -51.9R
+  15m:bos +                          older   898 trades  46 % wins +0.008R each t  +0.5 total    +7.1R
+                                     newer   631 trades  39 % wins -0.067R each t  -3.5 total   -42.4R
+  15m:against strong close           older   377 trades  47 % wins -0.083R each t  -2.8 total   -31.4R
+                                     newer   305 trades  40 % wins -0.069R each t  -2.2 total   -21.1R
+  1h:pullback impulsive              older  1691 trades  43 % wins -0.089R each t  -7.2 total  -150.7R
+                                     newer  1099 trades  46 % wins -0.021R each t  -1.4 total   -23.2R
+  1h:pullback -                      older  1691 trades  43 % wins -0.089R each t  -7.2 total  -150.7R
+                                     newer  1099 trades  46 % wins -0.021R each t  -1.4 total   -23.2R
+  15m:trigger pinbar                 older   323 trades  41 % wins -0.077R each t  -3.2 total   -25.0R
+                                     newer   196 trades  43 % wins -0.074R each t  -2.1 total   -14.5R
+  15m:against morning star           older   127 trades  43 % wins -0.032R each t  -0.6 total    -4.1R
+                                     newer    76 trades  45 % wins -0.076R each t  -1.6 total    -5.8R
+  15m:trigger CHoCH up               older   172 trades  34 % wins -0.096R each t  -2.9 total   -16.4R
+                                     newer   156 trades  45 % wins +0.040R each t  +1.0 total    +6.3R
+  15m:against tweezer bottom         older   126 trades  42 % wins -0.100R each t  -2.4 total   -12.6R
+                                     newer    84 trades  45 % wins -0.035R each t  -0.7 total    -2.9R
+  15m:against inside-bar breakdown   older    78 trades  41 % wins -0.072R each t  -1.4 total    -5.6R
+                                     newer    75 trades  39 % wins -0.081R each t  -1.2 total    -6.1R
+  15m:choch +                        older  1188 trades  36 % wins -0.103R each t  -7.7 total  -122.4R
+                                     newer   787 trades  47 % wins +0.013R each t  +0.7 total   +10.6R
+  1h:wicks +                         older  1082 trades  38 % wins -0.065R each t  -4.0 total   -70.1R
+                                     newer   691 trades  40 % wins -0.087R each t  -5.1 total   -59.9R
+  1h:pattern +                       older  1556 trades  37 % wins -0.108R each t  -8.3 total  -168.3R
+                                     newer  1191 trades  44 % wins -0.037R each t  -2.5 total   -43.5R
+  1h:trigger CHoCH down              older   213 trades  38 % wins -0.065R each t  -2.3 total   -13.8R
+                                     newer   153 trades  40 % wins -0.089R each t  -2.2 total   -13.6R
+  1h:against piercing                older   101 trades  53 % wins -0.022R each t  -0.5 total    -2.3R
+                                     newer    72 trades  35 % wins -0.095R each t  -1.8 total    -6.9R
+  15m:against evening star           older    90 trades  34 % wins -0.115R each t  -1.8 total   -10.3R
+                                     newer    77 trades  56 % wins +0.084R each t  +1.2 total    +6.5R
+  1h:bos_against -                   older   502 trades  44 % wins -0.116R each t  -5.2 total   -58.0R
+                                     newer   417 trades  50 % wins -0.020R each t  -0.8 total    -8.4R
+  1h:trigger tweezer bottom          older   108 trades  33 % wins -0.116R each t  -2.9 total   -12.5R
+                                     newer    95 trades  49 % wins +0.016R each t  +0.3 total    +1.5R
+  1h:trigger engulfing               older   412 trades  41 % wins -0.059R each t  -2.2 total   -24.1R
+                                     newer   332 trades  37 % wins -0.100R each t  -3.5 total   -33.1R
+  15m:trigger BOS down               older   337 trades  50 % wins +0.035R each t  +1.5 total   +11.8R
+                                     newer   137 trades  35 % wins -0.103R each t  -3.4 total   -14.1R
+  1h:choch +                         older   947 trades  44 % wins -0.037R each t  -2.4 total   -34.7R
+                                     newer   724 trades  38 % wins -0.112R each t  -5.8 total   -80.8R
+  1h:trigger inside-bar breakout     older    90 trades  37 % wins -0.132R each t  -2.4 total   -11.8R
+                                     newer    91 trades  48 % wins +0.010R each t  +0.2 total    +0.9R
+  1h:against tweezer top             older   107 trades  43 % wins -0.013R each t  -0.2 total    -1.4R
+                                     newer    74 trades  39 % wins -0.114R each t  -2.1 total    -8.4R
+  1h:trigger outside reversal        older   244 trades  32 % wins -0.142R each t  -4.4 total   -34.7R
+                                     newer   187 trades  45 % wins +0.004R each t  +0.1 total    +0.7R
+  1h:against pinbar                  older   301 trades  44 % wins -0.035R each t  -1.2 total   -10.7R
+                                     newer   199 trades  39 % wins -0.134R each t  -3.8 total   -26.8R
+  1h:trigger strong close            older   199 trades  34 % wins -0.156R each t  -3.7 total   -31.0R
+                                     newer   199 trades  45 % wins -0.050R each t  -1.4 total    -9.9R
+  1h:against inside-bar breakdown    older    92 trades  40 % wins -0.156R each t  -3.1 total   -14.4R
+                                     newer    68 trades  47 % wins +0.015R each t  +0.2 total    +1.0R
+  1h:trigger evening star            older   118 trades  36 % wins -0.148R each t  -3.1 total   -17.5R
+                                     newer    67 trades  40 % wins -0.140R each t  -2.1 total    -9.4R
+  15m:trigger dark cloud             older   110 trades  41 % wins -0.161R each t  -3.1 total   -17.7R
+                                     newer    52 trades  50 % wins -0.093R each t  -1.9 total    -4.8R
+  1h:trigger tweezer top             older   168 trades  35 % wins -0.162R each t  -5.1 total   -27.3R
+                                     newer   110 trades  53 % wins +0.017R each t  +0.4 total    +1.8R
+  1h:trigger morning star            older    76 trades  29 % wins -0.173R each t  -3.2 total   -13.1R
+                                     newer    77 trades  43 % wins +0.064R each t  +1.1 total    +4.9R
+  15m:against dark cloud             older    99 trades  41 % wins -0.035R each t  -0.6 total    -3.5R
+                                     newer    55 trades  29 % wins -0.162R each t  -2.6 total    -8.9R
+  15m:against tweezer top            older    95 trades  25 % wins -0.183R each t  -4.1 total   -17.4R
+                                     newer    80 trades  35 % wins -0.133R each t  -2.9 total   -10.6R
+  1h:trigger pinbar                  older   302 trades  32 % wins -0.196R each t  -8.0 total   -59.1R
+                                     newer   210 trades  45 % wins -0.020R each t  -0.6 total    -4.2R
+  1h:trigger CHoCH up                older   144 trades  35 % wins -0.087R each t  -1.9 total   -12.6R
+                                     newer   137 trades  28 % wins -0.209R each t  -4.6 total   -28.7R
+
+1b. Price action against the 4h trend (2R, closed 12:30): trades with the feature
+  all of them                       older  6129 trades  41 % wins -0.055R each t  -8.5 total  -336.3R
+                                     newer  4281 trades  39 % wins -0.077R each t -10.2 total  -328.2R
+  15m:against dark cloud             older   118 trades  51 % wins +0.070R each t  +1.2 total    +8.2R
+                                     newer    50 trades  38 % wins +0.005R each t  +0.1 total    +0.2R  better on both
+  1h:against evening star            older   116 trades  53 % wins +0.126R each t  +2.0 total   +14.7R
+                                     newer    63 trades  48 % wins -0.009R each t  -0.1 total    -0.6R  better on both
+  15m:against inside-bar breakout    older    96 trades  52 % wins -0.003R each t  -0.0 total    -0.3R
+                                     newer    71 trades  42 % wins -0.024R each t  -0.3 total    -1.7R  better on both
+  1h:hard_against -                  older   674 trades  47 % wins +0.007R each t  +0.3 total    +4.9R
+                                     newer   559 trades  44 % wins -0.029R each t  -1.4 total   -16.3R  better on both
+  1h:against hard bar                older   674 trades  47 % wins +0.007R each t  +0.3 total    +4.9R
+                                     newer   559 trades  44 % wins -0.029R each t  -1.4 total   -16.3R  better on both
+  1h:trigger pinbar                  older   304 trades  38 % wins -0.011R each t  -0.3 total    -3.3R
+                                     newer   200 trades  49 % wins +0.047R each t  +1.1 total    +9.5R  better on both
+  1h:wicks -                         older  1057 trades  47 % wins -0.016R each t  -1.1 total   -16.8R
+                                     newer   698 trades  47 % wins -0.005R each t  -0.3 total    -3.7R  better on both
+  1h:bos +                           older   709 trades  44 % wins -0.017R each t  -0.9 total   -12.1R
+                                     newer   575 trades  42 % wins -0.040R each t  -1.8 total   -23.2R  better on both
+  1h:pullback corrective             older  1485 trades  44 % wins -0.030R each t  -2.5 total   -44.9R
+                                     newer  1002 trades  43 % wins -0.031R each t  -2.0 total   -31.4R  better on both
+  1h:pullback +                      older  1485 trades  44 % wins -0.030R each t  -2.5 total   -44.9R
+                                     newer  1002 trades  43 % wins -0.031R each t  -2.0 total   -31.4R  better on both
+  1h:against strong close            older   175 trades  49 % wins +0.082R each t  +1.6 total   +14.3R
+                                     newer   193 trades  43 % wins -0.053R each t  -1.4 total   -10.3R  better on both
+  1h:against inside-bar breakout     older    87 trades  52 % wins -0.023R each t  -0.4 total    -2.0R
+                                     newer    77 trades  43 % wins -0.057R each t  -0.8 total    -4.4R  better on both
+  15m:choch_against -                older  1791 trades  46 % wins -0.018R each t  -1.4 total   -31.9R
+                                     newer  1167 trades  44 % wins -0.058R each t  -3.8 total   -68.0R  better on both
+  15m:against CHoCH against          older  1791 trades  46 % wins -0.018R each t  -1.4 total   -31.9R
+                                     newer  1167 trades  44 % wins -0.058R each t  -3.8 total   -68.0R  better on both
+  1h:anything against                older  2854 trades  44 % wins -0.016R each t  -1.7 total   -45.6R
+                                     newer  2051 trades  41 % wins -0.059R each t  -5.5 total  -120.4R  better on both
+  15m:wicks -                        older  1291 trades  43 % wins -0.028R each t  -2.3 total   -36.8R
+                                     newer   943 trades  39 % wins -0.059R each t  -4.1 total   -55.7R  better on both
+  1h:against pinbar                  older   304 trades  54 % wins +0.079R each t  +3.1 total   +24.0R
+                                     newer   208 trades  38 % wins -0.063R each t  -2.0 total   -13.2R  better on both
+  15m:trigger sweep                  older  1457 trades  43 % wins -0.043R each t  -3.6 total   -63.1R
+                                     newer  1051 trades  43 % wins -0.041R each t  -2.9 total   -42.9R  better on both
+  15m:sweep +                        older  1457 trades  43 % wins -0.043R each t  -3.6 total   -63.1R
+                                     newer  1051 trades  43 % wins -0.041R each t  -2.9 total   -42.9R  better on both
+  15m:trigger strong close           older   374 trades  39 % wins -0.044R each t  -2.2 total   -16.6R
+                                     newer   307 trades  43 % wins -0.040R each t  -2.2 total   -12.3R  better on both
+  1h:against engulfing               older   396 trades  45 % wins -0.045R each t  -1.7 total   -17.6R
+                                     newer   331 trades  46 % wins -0.047R each t  -1.8 total   -15.4R  better on both
+  1h:no check                        older  4308 trades  44 % wins -0.031R each t  -4.0 total  -134.6R
+                                     newer  2989 trades  40 % wins -0.067R each t  -7.5 total  -199.5R  better on both
+  15m:against pinbar                 older   314 trades  42 % wins -0.035R each t  -1.5 total   -10.9R
+                                     newer   199 trades  38 % wins -0.067R each t  -1.9 total   -13.3R  better on both
+  1h:pattern_against -               older  1512 trades  49 % wins +0.024R each t  +1.7 total   +35.8R
+                                     newer  1148 trades  42 % wins -0.070R each t  -5.0 total   -79.8R  better on both
+  15m:trigger inside-bar breakdown   older    84 trades  45 % wins -0.013R each t  -0.3 total    -1.1R
+                                     newer    70 trades  44 % wins -0.070R each t  -1.6 total    -4.9R  better on both
+  15m:pullback impulsive             older  1140 trades  40 % wins -0.052R each t  -3.0 total   -59.0R
+                                     newer   788 trades  43 % wins -0.046R each t  -2.3 total   -36.2R  better on both
+  15m:pullback -                     older  1140 trades  40 % wins -0.052R each t  -3.0 total   -59.0R
+                                     newer   788 trades  43 % wins -0.046R each t  -2.3 total   -36.2R  better on both
+  1h:choch_against -                 older  1380 trades  39 % wins -0.053R each t  -4.4 total   -73.4R
+                                     newer  1036 trades  46 % wins -0.012R each t  -0.8 total   -12.7R  better on both
+  1h:against CHoCH against           older  1380 trades  39 % wins -0.053R each t  -4.4 total   -73.4R
+                                     newer  1036 trades  46 % wins -0.012R each t  -0.8 total   -12.7R  better on both
+  15m:anything against               older  3295 trades  43 % wins -0.045R each t  -4.7 total  -147.7R
+                                     newer  2145 trades  40 % wins -0.075R each t  -6.6 total  -161.1R  better on both
+  15m:no check                       older  4487 trades  42 % wins -0.051R each t  -6.4 total  -228.3R
+                                     newer  3036 trades  39 % wins -0.077R each t  -8.1 total  -233.7R
+  15m:pattern +                      older  1747 trades  41 % wins -0.053R each t  -5.3 total   -91.9R
+                                     newer  1226 trades  39 % wins -0.077R each t  -6.5 total   -94.6R
+  15m:trigger engulfing              older   483 trades  39 % wins -0.055R each t  -2.9 total   -26.6R
+                                     newer   344 trades  38 % wins -0.080R each t  -4.0 total   -27.4R
+  15m:any trigger                    older  2999 trades  40 % wins -0.060R each t  -7.3 total  -181.4R
+                                     newer  2112 trades  40 % wins -0.067R each t  -7.0 total  -140.6R
+  15m:trigger tweezer bottom         older   123 trades  37 % wins -0.019R each t  -0.5 total    -2.4R
+                                     newer    89 trades  39 % wins -0.084R each t  -1.6 total    -7.4R
+  1h:trigger piercing                older   104 trades  37 % wins -0.064R each t  -1.5 total    -6.7R
+                                     newer    80 trades  42 % wins +0.003R each t  +0.1 total    +0.3R
+  15m:pullback even                  older  1509 trades  42 % wins -0.050R each t  -3.8 total   -74.8R
+                                     newer  1068 trades  39 % wins -0.087R each t  -5.5 total   -92.5R
+  1h:any trigger                     older  3011 trades  38 % wins -0.066R each t  -7.2 total  -197.3R
+                                     newer  2131 trades  38 % wins -0.084R each t  -7.7 total  -178.6R
+  15m:check                          older  1642 trades  38 % wins -0.066R each t  -6.5 total  -108.0R
+                                     newer  1245 trades  38 % wins -0.076R each t  -6.7 total   -94.5R
+  1h:trigger sweep                   older  1555 trades  38 % wins -0.065R each t  -5.2 total  -101.6R
+                                     newer  1128 trades  39 % wins -0.088R each t  -5.9 total   -98.9R
+  1h:sweep +                         older  1555 trades  38 % wins -0.065R each t  -5.2 total  -101.6R
+                                     newer  1128 trades  39 % wins -0.088R each t  -5.9 total   -98.9R
+  15m:trigger tweezer top            older    99 trades  56 % wins +0.020R each t  +0.4 total    +1.9R
+                                     newer    90 trades  43 % wins -0.088R each t  -1.9 total    -7.9R
+  1h:momentum +                      older  1964 trades  42 % wins -0.037R each t  -3.4 total   -72.5R
+                                     newer  1471 trades  36 % wins -0.089R each t  -7.1 total  -131.6R
+  1h:against tweezer bottom          older   112 trades  54 % wins +0.002R each t  +0.0 total    +0.2R
+                                     newer    85 trades  40 % wins -0.092R each t  -1.9 total    -7.8R
+  15m:pattern_against -              older  1759 trades  41 % wins -0.072R each t  -5.1 total  -126.0R
+                                     newer  1105 trades  38 % wins -0.086R each t  -5.1 total   -94.8R
+  15m:trigger CHoCH up               older   324 trades  33 % wins -0.073R each t  -3.3 total   -23.6R
+                                     newer   216 trades  28 % wins -0.095R each t  -4.0 total   -20.4R
+  15m:against inside-bar breakdown   older   216 trades  36 % wins -0.074R each t  -1.8 total   -16.1R
+                                     newer   115 trades  32 % wins -0.059R each t  -1.3 total    -6.8R
+  1h:pullback even                   older  1323 trades  38 % wins -0.076R each t  -5.4 total  -100.7R
+                                     newer   991 trades  42 % wins -0.064R each t  -4.2 total   -63.1R
+  15m:trigger outside reversal       older   342 trades  36 % wins -0.076R each t  -3.7 total   -26.1R
+                                     newer   237 trades  38 % wins -0.050R each t  -2.1 total   -11.8R
+  15m:pullback corrective            older  1695 trades  41 % wins -0.078R each t  -6.9 total  -132.1R
+                                     newer  1298 trades  39 % wins -0.081R each t  -6.4 total  -105.2R
+  15m:pullback +                     older  1695 trades  41 % wins -0.078R each t  -6.9 total  -132.1R
+                                     newer  1298 trades  39 % wins -0.081R each t  -6.4 total  -105.2R
+  1h:choch +                         older  1266 trades  40 % wins -0.056R each t  -3.6 total   -70.4R
+                                     newer   836 trades  36 % wins -0.100R each t  -6.4 total   -83.9R
+  15m:hard_against -                 older   952 trades  43 % wins -0.079R each t  -4.1 total   -74.9R
+                                     newer   617 trades  43 % wins -0.079R each t  -3.3 total   -48.9R
+  15m:against hard bar               older   952 trades  43 % wins -0.079R each t  -4.1 total   -74.9R
+                                     newer   617 trades  43 % wins -0.079R each t  -3.3 total   -48.9R
+  15m:trigger morning star           older   126 trades  33 % wins -0.079R each t  -2.1 total   -10.0R
+                                     newer    83 trades  34 % wins -0.035R each t  -1.0 total    -2.9R
+  15m:trigger pinbar                 older   318 trades  44 % wins -0.054R each t  -1.9 total   -17.1R
+                                     newer   194 trades  37 % wins -0.102R each t  -2.7 total   -19.7R
+  15m:against evening star           older   175 trades  43 % wins -0.064R each t  -1.4 total   -11.1R
+                                     newer    79 trades  37 % wins -0.102R each t  -2.2 total    -8.0R
+  15m:trigger dark cloud             older    92 trades  48 % wins -0.083R each t  -1.8 total    -7.6R
+                                     newer    59 trades  53 % wins +0.028R each t  +0.4 total    +1.7R
+  15m:trigger inside-bar breakout    older   153 trades  39 % wins -0.066R each t  -2.2 total   -10.1R
+                                     newer   123 trades  34 % wins -0.106R each t  -3.4 total   -13.0R
+  1h:trigger inside-bar breakout     older   147 trades  37 % wins -0.085R each t  -2.0 total   -12.5R
+                                     newer   119 trades  31 % wins -0.084R each t  -1.7 total   -10.0R
+  1h:trigger BOS up                  older   234 trades  39 % wins -0.086R each t  -2.6 total   -20.1R
+                                     newer   139 trades  37 % wins -0.058R each t  -1.2 total    -8.1R
+  15m:against outside reversal       older   283 trades  41 % wins -0.088R each t  -2.5 total   -24.9R
+                                     newer   184 trades  42 % wins -0.009R each t  -0.2 total    -1.6R
+  1h:against dark cloud              older   113 trades  36 % wins -0.034R each t  -0.6 total    -3.9R
+                                     newer    74 trades  39 % wins -0.112R each t  -3.2 total    -8.3R
+  1h:wicks +                         older  1308 trades  41 % wins -0.061R each t  -4.2 total   -79.3R
+                                     newer   915 trades  36 % wins -0.112R each t  -6.7 total  -102.5R
+  15m:bos +                          older   936 trades  37 % wins -0.068R each t  -4.3 total   -63.3R
+                                     newer   699 trades  34 % wins -0.112R each t  -6.2 total   -78.3R
+  15m:momentum +                     older  1901 trades  36 % wins -0.094R each t  -9.3 total  -178.2R
+                                     newer  1277 trades  39 % wins -0.073R each t  -5.9 total   -93.7R
+  1h:pullback impulsive              older  1685 trades  39 % wins -0.094R each t  -7.9 total  -158.4R
+                                     newer  1145 trades  39 % wins -0.084R each t  -5.5 total   -95.7R
+  1h:pullback -                      older  1685 trades  39 % wins -0.094R each t  -7.9 total  -158.4R
+                                     newer  1145 trades  39 % wins -0.084R each t  -5.5 total   -95.7R
+  1h:trigger BOS down                older   121 trades  48 % wins +0.070R each t  +1.7 total    +8.4R
+                                     newer   104 trades  41 % wins -0.117R each t  -2.3 total   -12.2R
+  1h:trigger tweezer top             older    99 trades  45 % wins -0.097R each t  -1.9 total    -9.6R
+                                     newer    75 trades  49 % wins +0.010R each t  +0.2 total    +0.7R
+  15m:trigger BOS up                 older   346 trades  32 % wins -0.097R each t  -3.8 total   -33.7R
+                                     newer   208 trades  33 % wins -0.108R each t  -4.2 total   -22.5R
+  1h:pattern +                       older  1616 trades  35 % wins -0.098R each t  -7.9 total  -158.5R
+                                     newer  1144 trades  39 % wins -0.055R each t  -3.7 total   -62.9R
+  1h:trigger morning star            older   159 trades  34 % wins -0.081R each t  -2.3 total   -12.8R
+                                     newer   111 trades  32 % wins -0.125R each t  -3.7 total   -13.9R
+  1h:against outside reversal        older   227 trades  56 % wins +0.020R each t  +0.6 total    +4.6R
+                                     newer   181 trades  35 % wins -0.130R each t  -4.8 total   -23.5R
+  15m:bos_against -                  older   545 trades  40 % wins -0.109R each t  -4.8 total   -59.1R
+                                     newer   379 trades  43 % wins -0.029R each t  -1.0 total   -11.2R
+  15m:wicks +                        older  1176 trades  41 % wins -0.052R each t  -3.2 total   -60.9R
+                                     newer   852 trades  37 % wins -0.130R each t  -7.8 total  -111.1R
+  1h:check                           older  1821 trades  36 % wins -0.111R each t  -9.6 total  -201.8R
+                                     newer  1292 trades  35 % wins -0.100R each t  -7.1 total  -128.7R
+  1h:trigger strong close            older   249 trades  33 % wins -0.112R each t  -3.2 total   -27.8R
+                                     newer   159 trades  40 % wins -0.065R each t  -1.6 total   -10.4R
+  15m:against engulfing              older   464 trades  39 % wins -0.113R each t  -4.0 total   -52.4R
+                                     newer   277 trades  39 % wins -0.085R each t  -2.4 total   -23.7R
+  15m:choch +                        older  1078 trades  35 % wins -0.113R each t  -8.4 total  -121.7R
+                                     newer   792 trades  38 % wins -0.044R each t  -2.7 total   -35.1R
+  1h:against tweezer top             older   186 trades  52 % wins +0.144R each t  +3.2 total   +26.8R
+                                     newer   108 trades  34 % wins -0.136R each t  -3.3 total   -14.7R
+  15m:trigger BOS down               older   142 trades  35 % wins -0.117R each t  -3.6 total   -16.6R
+                                     newer   144 trades  43 % wins -0.100R each t  -3.1 total   -14.4R
+  15m:trigger evening star           older    91 trades  46 % wins +0.010R each t  +0.2 total    +0.9R
+                                     newer    76 trades  39 % wins -0.153R each t  -3.1 total   -11.6R
+  15m:trigger CHoCH down             older   135 trades  37 % wins -0.132R each t  -3.2 total   -17.8R
+                                     newer   132 trades  49 % wins +0.012R each t  +0.3 total    +1.5R
+  15m:against strong close           older   393 trades  40 % wins -0.133R each t  -4.0 total   -52.3R
+                                     newer   244 trades  43 % wins -0.119R each t  -3.0 total   -29.0R
+  1h:bos_against -                   older   662 trades  38 % wins -0.138R each t  -7.1 total   -91.7R
+                                     newer   534 trades  35 % wins -0.099R each t  -4.1 total   -53.0R
+  15m:against tweezer bottom         older    73 trades  37 % wins -0.140R each t  -2.1 total   -10.2R
+                                     newer    80 trades  40 % wins -0.163R each t  -2.8 total   -13.0R
+  15m:against tweezer top            older   158 trades  35 % wins -0.051R each t  -0.9 total    -8.0R
+                                     newer    92 trades  27 % wins -0.164R each t  -3.3 total   -15.1R
+  1h:against inside-bar breakdown    older   139 trades  34 % wins -0.143R each t  -3.4 total   -19.9R
+                                     newer    74 trades  35 % wins -0.034R each t  -0.7 total    -2.5R
+  1h:trigger CHoCH down              older   173 trades  29 % wins -0.148R each t  -4.5 total   -25.6R
+                                     newer   116 trades  39 % wins -0.112R each t  -2.6 total   -13.0R
+  1h:trigger engulfing               older   417 trades  29 % wins -0.168R each t  -7.6 total   -70.2R
+                                     newer   290 trades  34 % wins -0.080R each t  -2.8 total   -23.3R
+  1h:trigger outside reversal        older   257 trades  30 % wins -0.169R each t  -6.0 total   -43.4R
+                                     newer   156 trades  34 % wins -0.048R each t  -1.0 total    -7.5R
+  1h:trigger tweezer bottom          older   136 trades  21 % wins -0.203R each t  -6.9 total   -27.5R
+                                     newer    99 trades  35 % wins -0.079R each t  -2.4 total    -7.8R
+  1h:trigger CHoCH up                older   314 trades  45 % wins +0.031R each t  +0.9 total    +9.6R
+                                     newer   182 trades  20 % wins -0.227R each t  -6.7 total   -41.4R
+
+2. Two trades a day, 1.5R target, closed 12:30 (fewer trades where the rule found none)
+  today's rule (top 2)               older   320 trades  41 % wins -0.075R each t  -2.7 total   -23.9R
+                                     newer   212 trades  46 % wins -0.053R each t  -1.4 total   -11.2R
+  random 2                           older   320 trades  46 % wins -0.055R each t  -2.0 total   -17.7R
+                                     newer   212 trades  47 % wins -0.028R each t  -0.9 total    -6.0R
+  + PA points                        older   320 trades  44 % wins -0.039R each t  -1.5 total   -12.5R
+                                     newer   212 trades  43 % wins -0.082R each t  -2.3 total   -17.3R
+  PA as 8th and 9th check            older   320 trades  41 % wins -0.068R each t  -2.5 total   -21.8R
+                                     newer   212 trades  45 % wins -0.075R each t  -2.1 total   -15.8R
+  veto: nothing against 1h           older   319 trades  38 % wins -0.074R each t  -2.7 total   -23.5R
+                                     newer   212 trades  46 % wins -0.016R each t  -0.4 total    -3.3R
+  veto: nothing against 15m          older   319 trades  43 % wins -0.055R each t  -2.0 total   -17.7R
+                                     newer   212 trades  47 % wins -0.022R each t  -0.7 total    -4.8R
+  veto: nothing against both         older   312 trades  40 % wins -0.035R each t  -1.2 total   -11.0R
+                                     newer   207 trades  45 % wins -0.050R each t  -1.5 total   -10.3R
+  only with 1h PA check              older   316 trades  36 % wins -0.067R each t  -2.3 total   -21.1R
+                                     newer   207 trades  50 % wins -0.016R each t  -0.5 total    -3.3R
+  only with 15m PA check             older   307 trades  41 % wins -0.051R each t  -1.8 total   -15.5R
+                                     newer   211 trades  46 % wins -0.047R each t  -1.6 total    -9.9R
+  only with 1h or 15m check          older   319 trades  40 % wins -0.065R each t  -2.4 total   -20.9R
+                                     newer   212 trades  46 % wins -0.053R each t  -1.5 total   -11.3R
+  only with both checks              older   237 trades  36 % wins -0.095R each t  -2.9 total   -22.5R
+                                     newer   163 trades  50 % wins -0.021R each t  -0.6 total    -3.3R
+  PA points > 0 both                 older   311 trades  42 % wins -0.012R each t  -0.4 total    -3.6R
+                                     newer   210 trades  46 % wins -0.031R each t  -0.9 total    -6.4R
+  best PA points only                older   320 trades  41 % wins -0.018R each t  -0.7 total    -5.8R
+                                     newer   212 trades  48 % wins +0.017R each t  +0.5 total    +3.6R
+  5+ of 7 and 15m check              older    67 trades  42 % wins -0.070R each t  -1.3 total    -4.7R
+                                     newer    45 trades  53 % wins -0.047R each t  -0.8 total    -2.1R
+  5+ of 7, nothing against           older    62 trades  37 % wins -0.084R each t  -1.4 total    -5.2R
+                                     newer    41 trades  56 % wins +0.032R each t  +0.4 total    +1.3R
+  -- wait from 09:30 to 10:30 for a 15-minute price-action trigger, enter on the next bar
+  top 2 that trigger, by checks      older   320 trades  37 % wins -0.081R each t  -3.4 total   -26.0R
+                                     newer   212 trades  46 % wins -0.020R each t  -0.6 total    -4.2R
+  first 2 to trigger                 older   320 trades  39 % wins -0.047R each t  -1.9 total   -15.0R
+                                     newer   212 trades  46 % wins -0.032R each t  -1.2 total    -6.8R
+  5+ of 7 that trigger               older   128 trades  43 % wins -0.033R each t  -1.0 total    -4.2R
+                                     newer    93 trades  49 % wins -0.016R each t  -0.3 total    -1.5R
+  today's top 5, those that trigger  older   297 trades  37 % wins -0.074R each t  -3.0 total   -22.1R
+                                     newer   202 trades  46 % wins -0.023R each t  -0.7 total    -4.7R
+  -- the side chosen by price action instead of the 4h trend
+  against the trend, top 2           older   320 trades  44 % wins -0.041R each t  -1.4 total   -13.3R
+                                     newer   212 trades  36 % wins -0.120R each t  -3.5 total   -25.3R
+  either side, top 2 by checks       older   320 trades  41 % wins -0.064R each t  -2.3 total   -20.6R
+                                     newer   212 trades  44 % wins -0.079R each t  -2.1 total   -16.8R
+  either side, best PA points        older   320 trades  38 % wins -0.071R each t  -2.7 total   -22.6R
+                                     newer   212 trades  42 % wins -0.054R each t  -1.6 total   -11.4R
+  either side, both PA checks        older   302 trades  35 % wins -0.124R each t  -4.5 total   -37.4R
+                                     newer   206 trades  46 % wins -0.040R each t  -1.3 total    -8.2R
+  either side, both checks, best PA  older   302 trades  34 % wins -0.093R each t  -3.5 total   -28.1R
+                                     newer   206 trades  39 % wins -0.075R each t  -2.4 total   -15.5R
+  against trend, both PA checks      older   229 trades  36 % wins -0.112R each t  -3.9 total   -25.6R
+                                     newer   171 trades  36 % wins -0.119R each t  -3.6 total   -20.4R
+
+2. Two trades a day, 2.0R target, closed 12:30 (fewer trades where the rule found none)
+  today's rule (top 2)               older   320 trades  41 % wins -0.070R each t  -2.4 total   -22.5R
+                                     newer   212 trades  46 % wins -0.055R each t  -1.5 total   -11.7R
+  random 2                           older   320 trades  46 % wins -0.046R each t  -1.5 total   -14.8R
+                                     newer   212 trades  47 % wins -0.031R each t  -1.0 total    -6.6R
+  + PA points                        older   320 trades  44 % wins -0.040R each t  -1.5 total   -12.9R
+                                     newer   212 trades  43 % wins -0.085R each t  -2.4 total   -18.1R
+  PA as 8th and 9th check            older   320 trades  41 % wins -0.070R each t  -2.5 total   -22.4R
+                                     newer   212 trades  45 % wins -0.079R each t  -2.2 total   -16.8R
+  veto: nothing against 1h           older   319 trades  38 % wins -0.073R each t  -2.6 total   -23.2R
+                                     newer   212 trades  46 % wins -0.016R each t  -0.4 total    -3.4R
+  veto: nothing against 15m          older   319 trades  43 % wins -0.053R each t  -1.9 total   -16.8R
+                                     newer   212 trades  47 % wins -0.022R each t  -0.7 total    -4.7R
+  veto: nothing against both         older   312 trades  40 % wins -0.034R each t  -1.2 total   -10.5R
+                                     newer   207 trades  45 % wins -0.052R each t  -1.6 total   -10.7R
+  only with 1h PA check              older   316 trades  36 % wins -0.062R each t  -2.1 total   -19.5R
+                                     newer   207 trades  50 % wins -0.019R each t  -0.5 total    -4.0R
+  only with 15m PA check             older   307 trades  41 % wins -0.055R each t  -2.0 total   -16.9R
+                                     newer   211 trades  46 % wins -0.052R each t  -1.8 total   -10.9R
+  only with 1h or 15m check          older   319 trades  40 % wins -0.061R each t  -2.2 total   -19.6R
+                                     newer   212 trades  46 % wins -0.060R each t  -1.8 total   -12.7R
+  only with both checks              older   237 trades  35 % wins -0.097R each t  -2.9 total   -23.0R
+                                     newer   163 trades  50 % wins -0.025R each t  -0.7 total    -4.0R
+  PA points > 0 both                 older   311 trades  42 % wins -0.009R each t  -0.3 total    -2.8R
+                                     newer   210 trades  46 % wins -0.031R each t  -0.9 total    -6.6R
+  best PA points only                older   320 trades  41 % wins -0.018R each t  -0.7 total    -5.8R
+                                     newer   212 trades  48 % wins +0.013R each t  +0.4 total    +2.7R
+  5+ of 7 and 15m check              older    67 trades  42 % wins -0.077R each t  -1.6 total    -5.2R
+                                     newer    45 trades  53 % wins -0.069R each t  -1.3 total    -3.1R
+  5+ of 7, nothing against           older    62 trades  37 % wins -0.084R each t  -1.4 total    -5.2R
+                                     newer    41 trades  56 % wins -0.000R each t  -0.0 total    -0.0R
+  -- wait from 09:30 to 10:30 for a 15-minute price-action trigger, enter on the next bar
+  top 2 that trigger, by checks      older   320 trades  37 % wins -0.083R each t  -3.4 total   -26.5R
+                                     newer   212 trades  46 % wins -0.013R each t  -0.4 total    -2.7R
+  first 2 to trigger                 older   320 trades  39 % wins -0.043R each t  -1.6 total   -13.8R
+                                     newer   212 trades  46 % wins -0.029R each t  -1.0 total    -6.1R
+  5+ of 7 that trigger               older   128 trades  43 % wins -0.044R each t  -1.4 total    -5.6R
+                                     newer    93 trades  49 % wins -0.009R each t  -0.2 total    -0.9R
+  today's top 5, those that trigger  older   297 trades  37 % wins -0.076R each t  -3.0 total   -22.6R
+                                     newer   202 trades  46 % wins -0.016R each t  -0.5 total    -3.2R
+  -- the side chosen by price action instead of the 4h trend
+  against the trend, top 2           older   320 trades  44 % wins -0.033R each t  -1.0 total   -10.4R
+                                     newer   212 trades  36 % wins -0.120R each t  -3.5 total   -25.4R
+  either side, top 2 by checks       older   320 trades  41 % wins -0.057R each t  -1.9 total   -18.3R
+                                     newer   212 trades  44 % wins -0.081R each t  -2.2 total   -17.1R
+  either side, best PA points        older   320 trades  38 % wins -0.075R each t  -2.8 total   -23.9R
+                                     newer   212 trades  42 % wins -0.052R each t  -1.6 total   -11.0R
+  either side, both PA checks        older   302 trades  34 % wins -0.127R each t  -4.5 total   -38.3R
+                                     newer   206 trades  46 % wins -0.043R each t  -1.4 total    -8.8R
+  either side, both checks, best PA  older   302 trades  34 % wins -0.106R each t  -4.2 total   -32.1R
+                                     newer   206 trades  39 % wins -0.076R each t  -2.4 total   -15.6R
+  against trend, both PA checks      older   229 trades  36 % wins -0.110R each t  -3.8 total   -25.2R
+                                     newer   171 trades  36 % wins -0.122R each t  -3.8 total   -20.9R

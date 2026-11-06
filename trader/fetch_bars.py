@@ -1,5 +1,5 @@
 """Download closed 1h bars from KuCoin Futures public klines for the backtests. Uses no keys.
-Usage: python trader/fetch_bars.py BARS_FOLDER [TOP_CONTRACTS] [DAYS] [MINUTES]
+Usage: python trader/fetch_bars.py BARS_FOLDER [TOP_CONTRACTS] [DAYS] [MINUTES] [SYM,SYM,...]
 """
 import concurrent.futures
 import json
@@ -53,7 +53,11 @@ def main():
     rows = get("/api/v1/contracts/active")
     rows = [c for c in rows if c["symbol"].endswith("USDTM") and (c.get("assetClass") or "CRYPTO") == "CRYPTO"
             and c.get("status") == "Open"]
-    rows = sorted(rows, key=lambda c: -float(c.get("turnoverOf24h") or 0))[:top]
+    rows = sorted(rows, key=lambda c: -float(c.get("turnoverOf24h") or 0))
+    if len(sys.argv) > 5:                             # a comma list of contracts instead of the top ones
+        want = set(sys.argv[5].split(","))
+        rows = [c for c in rows if c["symbol"] in want]
+    rows = rows[:top]
     end = int(time.time() // 3600) * 3600 * 1000
     start = end - days * 24 * 3600 * 1000
     with concurrent.futures.ThreadPoolExecutor(WORKERS) as pool:

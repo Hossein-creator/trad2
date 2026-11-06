@@ -21,6 +21,17 @@ Those tests closed at 22:00. The 09:30 to 12:30 window (trader/backtest_morning.
 trader/backtest-morning.txt): -0.06R a trade, 42 % wins, 528 trades, two random contracts -0.02R. A minimum stop of
 2 % lost least; 0.5 to 1.5 % lost more.
 
+Price action (trader/price_action.py, added 06.11.2026) reads the last 120 1h and 15-minute bars for the trade's side:
+candle shapes, patterns (pinbar, engulfing, outside reversal, stars, piercing / dark cloud, tweezers, inside-bar
+breakout, three soldiers / crows, strong close), breaks of structure (BOS, CHoCH), liquidity sweeps, momentum, the
+pullback's character, compression and wick pressure. The ticket shows it. A contract whose 15-minute bars show
+something against the trade (a pattern against, a big bar against, or a CHoCH against still standing) goes behind the
+others. trader/backtest_pa.py on 50 contracts, Nov 2025 to Nov 2026 (results in trader/backtest-pa.txt): that veto
+moved the two trades from -0.070R / -0.055R (older / newer days) to -0.053R / -0.022R, still a loss and no better than
+two random contracts (-0.046R / -0.031R). Using price action as extra points, extra checks, a must-have trigger,
+waiting until 10:30 for a 15-minute trigger, or to choose the side instead of the 4h trend: none better on both
+halves, most worse. A 1h pattern for the trade at 09:00 did worse than none: in a 3-hour trade the move is often over.
+
 Direction   4h EMA20 over EMA50: long; under: short
 Score       trend      4h structure (HH+HL / LH+LL), close vs EMA50, ADX(14), EMA50 slope, daily trend
             phase      distance to the 4h EMA20 in ATRs: pullback best, stretched and deep lose points
@@ -61,7 +72,9 @@ import time
 import urllib.request
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "trader-kucoin"))
+sys.path.insert(0, os.path.dirname(__file__))
 import kucoin as K  # noqa: E402
+import price_action as P  # noqa: E402
 
 API = "https://api-futures.kucoin.com"
 LOG = "trader/daily-log.json"
@@ -77,6 +90,8 @@ CLOSE_BERLIN = (12, 30)
 MIN_HOURS_LEFT = 2
 MIN_TURNOVER = 20e6
 TOP = 30
+PA_BARS = 120             # 1h and 15-minute bars read by trader/price_action.py
+PA_VETO_15M = True        # a contract whose last 15-minute bars show something against the trade goes to the back
 
 
 # ------------------------------------------------------------------ data
@@ -368,10 +383,11 @@ def ztext(z, tick):
 
 # ------------------------------------------------------------------ the score
 
-def rate(b4, b1, bd, now, tick, use_rsi=True):
-    """Side, stop, target and score from closed bars alone; verdict 'stop' when no stop fits 0.8 to 4 %."""
+def rate(b4, b1, bd, now, tick, use_rsi=True, side=None):
+    """Side, stop, target and score from closed bars alone; verdict 'stop' when no stop fits 2 to 4 %.
+    side 'long' or 'short' rates that side even against the 4h trend (for the backtests)."""
     tr = trend(b4, bd)
-    long_ = tr["direction"] == "up"
+    long_ = tr["direction"] == "up" if side is None else side == "long"
     a4, a1 = tr["atr"], atr(b1)
     closes1 = [x["c"] for x in b1]
     last, px = b1[-1], closes1[-1]
@@ -410,7 +426,7 @@ def rate(b4, b1, bd, now, tick, use_rsi=True):
     strength = tr["adx"] or 0
     parts["adx"] = 15 if strength >= 25 else 10 if strength >= 20 else 0
     parts["slope"] = 5 if sign * tr["slope50"] > 0 else 0
-    parts["day"] = 10 if tr["day"] == tr["direction"] else 3 if tr["day"] == "neutral" else -15
+    parts["day"] = 10 if tr["day"] == ("up" if long_ else "down") else 3 if tr["day"] == "neutral" else -15
     parts["phase"] = {"pullback": 15, "running": 5, "stretched": -15, "deep": -10}[tr["phase"]]
 
     # support and resistance
@@ -505,6 +521,9 @@ def evaluate(c, equity, cfg, now, close_by):
     res = dict(rate(b4, b1, bd, now, tick), symbol=sym, tick=tick)
     if res["verdict"] != "ok":
         return res
+    side_long = res["side"] == "long"
+    res["pa1"] = P.read(b1[-PA_BARS:], side_long)
+    res["pa15"] = P.read(bars(sym, 15, PA_BARS), side_long)
 
     def no(verdict, why):
         return dict(res, verdict=verdict, why=why)
@@ -560,6 +579,9 @@ def ticket(n, b):
     print("  trend: 4h %s (%s), ADX %.0f, EMA50 %+.2f %% over 40h, day bars %s, phase %s (%.1f ATR from EMA20)" % (
         tr["direction"], tr["structure"], tr["adx"] or 0, tr["slope50"], tr["day"], tr["phase"], tr["dist"]))
     print("  RSI 14: 1h %.0f, 4h %.0f" % (b["rsi1"], b["rsi4"]))
+    for tf, pa in (("1h", b["pa1"]), ("15m", b["pa15"])):
+        print("  price action %-3s %s; for: %s; against: %s" % (
+            tf, ", ".join(pa["seen"]) or "nothing", ", ".join(pa["trigger"]) or "none", ", ".join(pa["against"]) or "none"))
     if b["zone"]:
         print("  %s behind the stop: %s" % ("support" if b["side"] == "long" else "resistance", ztext(b["zone"], t)))
     if b["next_zone"]:
@@ -624,13 +646,14 @@ def main():
     for r in ok:
         key = "%s %s" % (r["symbol"], r["side"])
         r["total"] = r["score"] + REPEAT_POINTS * sum(1 for hour in earlier if key in hour)
-    ok.sort(key=lambda r: (-r["met"], -r["total"]))
+    ok.sort(key=lambda r: (PA_VETO_15M and bool(r["pa15"]["against"]), -r["met"], -r["total"]))
     for r in sorted(rows, key=lambda r: (-r.get("met", -1), -(r.get("total") or r.get("score") or -99))):
         tr = r.get("trend") or {}
         desc = "%-5s %-6s ADX %2.0f day %-7s %-9s" % (tr.get("direction", ""), tr.get("structure", ""),
                                                      tr.get("adx") or 0, tr.get("day", ""), tr.get("phase", "")) if tr else ""
-        info = r["why"] or "%s %d/7, %3d points, RSI 1h %.0f, net %.2fR, stop %.2f %%" % (
-            r["side"], r["met"], r.get("total", r["score"]), r["rsi1"], r["net_r"], r["stop_pct"])
+        info = r["why"] or "%s %d/7, %3d points, RSI 1h %.0f, net %.2fR, stop %.2f %%, 15m PA %s" % (
+            r["side"], r["met"], r.get("total", r["score"]), r["rsi1"], r["net_r"], r["stop_pct"],
+            "against" if r["pa15"]["against"] else "trigger" if r["pa15"]["check"] else "-")
         print("  %-12s %s %-8s %s" % (r["symbol"], desc, r["verdict"], info))
     if a.snapshot:
         hour = K.berlin(now).strftime("%H:00")
