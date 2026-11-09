@@ -24,7 +24,7 @@ STEP 3 - news: search the web for today's macro calendar with times (Fed/FOMC, C
 
 STEP 4
 - Analysis run (before 09:15): `python trader/daily.py --snapshot --avoid SYM,SYM`. Then answer with exactly one line: "Analyse läuft, Trades kommen um 09:30." and add a line only for something urgent (an open position to close, a PROBLEM line, a hack). No coin names, no trade.
-- Decision run (09:15 or later): `python trader/daily.py --avoid SYM,SYM`. It rates the 30 most traded crypto contracts on 7 checks (trend, support/resistance zone, RSI, candle, fair value gap, Fibonacci, room to the target) and on points, adds points for trades that ranked high at the earlier check, and prints the two with the most checks met as DAILY TICKET 1 and 2 (two different coins, 2R target, at least 1.2R net of fees and funding, max 1 % loss each, 1x).
+- Decision run (09:15 or later): `python trader/daily.py --avoid SYM,SYM`. It rates the 30 most traded crypto contracts on 7 checks (trend, support/resistance zone, RSI, candle, fair value gap, Fibonacci, room to the target) and on points, adds points for trades that ranked high at the earlier check, and prints the two with the most checks met as DAILY TICKET 1 and 2 (two different coins, 2R target, at least 1.2R net of fees and funding, max 5 % loss each per trader/kucoin.json, 1x).
 
 STEP 5 - answer in the decision run, short (the user wants no long explanations):
 - For each DAILY TICKET one line exactly like:

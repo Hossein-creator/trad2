@@ -1,6 +1,6 @@
 # trad2
 
-Stand vom 04.11.2026: KuCoin-Futures-Skripte für zwei Trades am Tag. Die Skripte senden keine Orders aus der Tagesroutine, jede Order wird von Hand im KuCoin-Browser gesetzt.
+Stand vom 09.11.2026: KuCoin-Futures-Skripte für zwei Trades am Tag. Die Skripte senden keine Orders aus der Tagesroutine, jede Order wird von Hand im KuCoin-Browser gesetzt.
 
 **Dies ist keine Anlageberatung und kein Gewinnversprechen. Die Regel liegt in allen Tests unten im Minus.**
 
@@ -14,9 +14,11 @@ Stand vom 04.11.2026: KuCoin-Futures-Skripte für zwei Trades am Tag. Die Skript
 
 Nach etwa 10:30 gibt das Skript keine neuen Trades mehr.
 
+Außerhalb dieses Fensters gibt `python trader/daily.py --hours 3` Trades, die nach 3 Stunden geschlossen werden. Diese Zeiten sind nicht getestet.
+
 ## Regeln
 
-- **Risiko:** max. 1 % Verlust pro Trade, Ziel 2R, mindestens 1,2R nach Gebühren und Funding, 1x isoliert
+- **Risiko (seit 07.11.2026):** max. 5 % Verlust pro Trade (höchstens 3,83 USDT), Tageslimit 7,66 USDT, Ziel 2R, mindestens 1,2R nach Gebühren und Funding, 1x isoliert. Bei 1x begrenzt die Positionsgröße (höchstens 50 % des Kontos) den echten Verlust meist auf etwa 1,3–1,9 % pro Trade. Die Zahlen stehen in `trader/kucoin.json`.
 - **Stop:** hinter einer Zone, 2–4 % Abstand
 - **Auswahl:** 7 Prüfungen (Trend, Zone, RSI, Kerze, Fair Value Gap, Fibonacci, Platz bis zum Ziel), danach Punkte
 - **Richtung:** 4h-EMA20 über EMA50 Long, darunter Short

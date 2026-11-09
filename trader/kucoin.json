@@ -1,8 +1,8 @@
 {
   "leverage": 1,
-  "max_loss_per_trade_usdt": 0.76,
-  "max_loss_pct": 1.0,
-  "daily_loss_limit_usdt": 2.3,
+  "max_loss_per_trade_usdt": 3.83,
+  "max_loss_pct": 5.0,
+  "daily_loss_limit_usdt": 7.66,
   "max_trades_per_day": 3,
   "max_position_pct": 50,
   "hold_minutes": 30,

@@ -58,7 +58,8 @@ Hard rules (a contract that breaks one is out, whatever its score)
              equity; value <= MAX_VALUE_PCT of equity, so two trades fit the margin
   count      two trades a day in two different contracts, none in a contract already open
 
-Usage: python trader/daily.py [SYM ...] [--avoid ETH,BNB] [--equity USDT] [--snapshot] [--log]
+Usage: python trader/daily.py [SYM ...] [--avoid ETH,BNB] [--equity USDT] [--snapshot] [--log] [--hours N]
+       --hours N: a trade outside the morning window, closed N hours from now (not tested like the morning)
        without symbols: the 30 crypto contracts with the most 24h turnover (at least 20M USDT)
        --snapshot records the ranking of this hour in trader/daily-watch.json and prints no ticket
 """
@@ -602,10 +603,11 @@ def main():
     ap.add_argument("--config", default="trader/kucoin.json")
     ap.add_argument("--snapshot", action="store_true", help="record this hour's ranking, print no ticket")
     ap.add_argument("--log", action="store_true", help="record the tickets as today's trades")
+    ap.add_argument("--hours", type=float, help="close this many hours from now instead of at 12:30 Berlin")
     a = ap.parse_args()
     cfg = K.read_config(a.config)
     now = K.utc_now()
-    close_by = berlin_close(now)
+    close_by = now + datetime.timedelta(hours=a.hours) if a.hours else berlin_close(now)
     day = K.berlin(now).strftime("%Y-%m-%d")
     log = K.read_json(LOG, []) or []
     taken = [x for x in log if x.get("day") == day]
