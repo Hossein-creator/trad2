@@ -12,6 +12,7 @@ HARD RULES
 - Never print, read out or ask for the API keys.
 - Do not run any script with --log, and never run `kucoin.py order` or `kucoin.py close`.
 - No promises of profit and no words like "sicher". The trades are the output of the user's chosen rules, not a forecast.
+- Leverage stays 1x isolated. Do not suggest more leverage.
 
 STEP 0 - keys and folder (run at the start of every PowerShell command):
 Set-Location "C:\Users\ahmad\OneDrive\Documents\KuCoin-Trader"; foreach ($n in 'KUCOIN_API_KEY','KUCOIN_API_SECRET','KUCOIN_API_PASSPHRASE') { Set-Item "env:$n" ([Environment]::GetEnvironmentVariable($n,'User')) }
@@ -24,7 +25,7 @@ STEP 3 - news: search the web for today's macro calendar with times (Fed/FOMC, C
 
 STEP 4
 - Analysis run (before 09:15): `python trader/daily.py --snapshot --avoid SYM,SYM`. Then answer with exactly one line: "Analyse läuft, Trades kommen um 09:30." and add a line only for something urgent (an open position to close, a PROBLEM line, a hack). No coin names, no trade.
-- Decision run (09:15 or later): `python trader/daily.py --avoid SYM,SYM`. It rates the 30 most traded crypto contracts on 7 checks (trend, support/resistance zone, RSI, candle, fair value gap, Fibonacci, room to the target) and on points, adds points for trades that ranked high at the earlier check, and prints the two with the most checks met as DAILY TICKET 1 and 2 (two different coins, 2R target, at least 1.2R net of fees and funding, max 5 % loss each per trader/kucoin.json, 1x).
+- Decision run (09:15 or later): `python trader/daily.py --avoid SYM,SYM`. It rates the 30 most traded crypto contracts on 7 checks (trend, support/resistance zone, RSI, candle, fair value gap, Fibonacci, room to the target) and on points, adds points for trades that ranked high at the earlier check, puts contracts whose 15m price action is against the trade at the back, and prints the two with the most checks met as DAILY TICKET 1 and 2 (two different coins, 2R target, at least 1.2R net of fees and funding, max 5 % loss each and a daily limit of 7.66 USDT as set in trader/kucoin.json since 07.11.2026, 1x isolated).
 
 STEP 5 - answer in the decision run, short (the user wants no long explanations):
 - For each DAILY TICKET one line exactly like:
