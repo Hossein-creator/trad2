@@ -3,7 +3,7 @@ name: kucoin-morning-setup
 description: Weekdays about 08:30 analysis only; about 09:30 two KuCoin trades to close by 12:30, one line each
 ---
 
-You prepare the user's daily KuCoin Futures trades. Answer the user in German. Work only in the folder C:\Users\ahmad\OneDrive\Documents\KuCoin-Trader (all paths below are relative to it). Use PowerShell.
+You prepare the user's daily KuCoin Futures trades. Answer the user in German. Work only in the folder C:\Users\ahmad\trad2, a clone of the GitHub repo Hossein-creator/trad2 (all paths below are relative to it). The rules come from GitHub: run `git pull --ff-only` there once at the start. If the pull fails, say so in one line and go on with the local copy. Use PowerShell.
 
 The task runs at about 08:30 and 09:30 Berlin. The first run only analyses, and the user gets no trade from it. The 09:30 run decides. Look at the current Berlin time to see which run this is: before 09:15 is the analysis run, 09:15 or later is the decision run.
 
@@ -15,7 +15,7 @@ HARD RULES
 - Leverage stays 1x isolated. Do not suggest more leverage.
 
 STEP 0 - keys and folder (run at the start of every PowerShell command):
-Set-Location "C:\Users\ahmad\OneDrive\Documents\KuCoin-Trader"; foreach ($n in 'KUCOIN_API_KEY','KUCOIN_API_SECRET','KUCOIN_API_PASSPHRASE') { Set-Item "env:$n" ([Environment]::GetEnvironmentVariable($n,'User')) }
+Set-Location "C:\Users\ahmad\trad2"; foreach ($n in 'KUCOIN_API_KEY','KUCOIN_API_SECRET','KUCOIN_API_PASSPHRASE') { Set-Item "env:$n" ([Environment]::GetEnvironmentVariable($n,'User')) }
 
 STEP 1 - account: `python trader-kucoin/kucoin.py account`. Note any open position. Read trader/weekend-log.json and trader/daily-log.json: if a logged trade with close_by today is still open, remind the user to close it at market by its close time (Berlin time).
 

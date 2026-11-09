@@ -24,7 +24,7 @@ Außerhalb dieses Fensters gibt `python trader/daily.py --hours 3` Trades, die n
 - **Richtung:** 4h-EMA20 über EMA50 Long, darunter Short
 - **Price Action** (seit 06.11.2026, `trader/price_action.py`): Kerzen, Muster, BOS/CHoCH, Liquidity Sweeps, Momentum, Rücksetzer, Kompression und Dochte auf 1h und 15m. Das Ticket zeigt sie an. Coins mit 15m-Signal gegen den Trade kommen nach hinten.
 
-Die Einzelheiten stehen am Anfang von `trader/daily.py`.
+Die Einzelheiten stehen am Anfang von `trader/daily.py`. Was Claude bei „setup“ Schritt für Schritt macht, steht in [SETUP.md](SETUP.md).
 
 ## Testergebnisse (nach Kosten)
 
@@ -39,6 +39,8 @@ Die Einzelheiten stehen am Anfang von `trader/daily.py`.
 Die vollständigen Zahlen stehen in `trader/backtest-*.txt`.
 
 ## Einrichten
+
+Der Arbeitsordner auf dem PC ist ein Klon dieses Repos in `C:\Users\ahmad\trad2`. Vor jedem Setup läuft dort `git pull`, damit immer der Stand von GitHub gilt.
 
 Python 3 genügt, Zusatzpakete sind nicht nötig. Die API-Schlüssel gehören in die Umgebungsvariablen `KUCOIN_API_KEY`, `KUCOIN_API_SECRET` und `KUCOIN_API_PASSPHRASE` und **nie** in dieses Repo.
 
