@@ -26,6 +26,7 @@ So geht Claude vor, wenn im Chat „setup“ steht. Die Regeln kommen immer aus 
    - Coins mit schlechten News kommen auf die Sperrliste. Wegen des Binance-Hacks steht BNB dort.
    - Gespeichert wird das mit `kucoin.py news --summary "..." --avoid SYM`.
 5. **Uhrzeit:**
+   - **Mo–Fr vor 09:30 (seit 11.11.2026):** Noch kein finales Setup. Claude beobachtet bis 09:30 und ruft dafür alle 10 Minuten `python trader/daily.py --snapshot --avoid SYM` auf (zuletzt gegen 09:28). Jede Runde wird gespeichert. Claude vergleicht, welche Coins oben bleiben, ob ihre Regeln weiter erfüllt sind und wie die 15m-Price-Action darauf reagiert. Coins, die vorher schon oben standen, bekommen in `daily.py` Extrapunkte. Das finale Setup kommt, wenn du um 09:30 wieder „setup“ schreibst. Dazu sagt Claude in einem Satz, was sich seit dem ersten Blick geändert hat.
    - **Mo–Fr 09:30 bis etwa 10:30:** `python trader/daily.py --avoid SYM`. Geschlossen wird um 12:30.
    - **Zu jeder anderen Zeit:** `python trader/daily.py --hours 3 --avoid SYM`. Geschlossen wird nach 3 Stunden. Claude sagt dazu, dass diese Zeiten nicht getestet sind.
 6. **Rechnen** (`trader/daily.py`):
